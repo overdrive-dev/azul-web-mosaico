@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import Image from 'next/image'
-import { Dialog, DialogPanel, Transition, TransitionChild, Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/react'
+import { Dialog, DialogPanel, Transition, TransitionChild } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 
 const products = [
@@ -52,24 +52,23 @@ export default function Header() {
             Quem Somos
           </a>
 
-          <Menu as="div" className="relative">
-            <MenuButton className={`flex items-center gap-x-1 text-sm font-semibold ${isProductPage ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}>
+          <div className="group relative">
+            <button className={`flex items-center gap-x-1 text-sm font-semibold ${isProductPage ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}>
               Produtos
-              <ChevronDownIcon aria-hidden="true" className="size-4" />
-            </MenuButton>
-            <MenuItems className="absolute left-1/2 z-10 mt-3 w-64 -translate-x-1/2 rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+              <ChevronDownIcon aria-hidden="true" className="size-4 transition-transform group-hover:rotate-180" />
+            </button>
+            <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 absolute left-1/2 z-10 mt-2 w-64 -translate-x-1/2 rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
               {products.map((item) => (
-                <MenuItem key={item.name}>
-                  <a
-                    href={item.href}
-                    className="block rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                  >
-                    {item.name}
-                  </a>
-                </MenuItem>
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="block rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                >
+                  {item.name}
+                </a>
               ))}
-            </MenuItems>
-          </Menu>
+            </div>
+          </div>
 
           <a
             href="/fale-conosco"
