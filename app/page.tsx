@@ -261,9 +261,9 @@ export default function Home() {
       </section>
 
       {/* Vantagens dos Compósitos */}
-      <section className="bg-azul-900 py-20">
+      <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl lg:text-4xl lg:leading-tight font-bold mb-16 text-white uppercase text-center leading-tight">
+          <h2 className="text-3xl lg:text-4xl lg:leading-tight font-bold mb-16 text-azul-800 uppercase text-center leading-tight">
             Vantagens dos compósitos de alto desempenho
           </h2>
           <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-2">
@@ -276,7 +276,7 @@ export default function Home() {
             <div className="aspect-square bg-[#0eaf22] flex items-center justify-center p-4 rounded-full">
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Fácil montagem e instalação</p>
             </div>
-            <div className="aspect-square bg-azul-950 flex items-center justify-center p-4 rounded-full"></div>
+            <div className="aspect-square bg-azul-600 flex items-center justify-center p-4 rounded-full"></div>
             <div className="aspect-square bg-[#e6007e] flex items-center justify-center p-4">
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Até 70% mais leve que o aço</p>
             </div>
@@ -293,11 +293,11 @@ export default function Home() {
             <div className="aspect-square bg-[#e6007e] flex items-center justify-center p-4 rounded-full">
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Sem valor de revenda</p>
             </div>
-            <div className="aspect-square bg-azul-950 flex items-center justify-center p-4"></div>
+            <div className="aspect-square bg-azul-600 flex items-center justify-center p-4"></div>
             <div className="aspect-square bg-[#f28522] flex items-center justify-center p-4">
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Vida útil indeterminada</p>
             </div>
-            <div className="aspect-square bg-azul-950 flex items-center justify-center p-4 rounded-full"></div>
+            <div className="aspect-square bg-azul-600 flex items-center justify-center p-4 rounded-full"></div>
             <div className="aspect-square bg-[#ffd712] flex items-center justify-center p-4 rounded-full">
               <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold">Material eletricamente isolante</p>
             </div>
