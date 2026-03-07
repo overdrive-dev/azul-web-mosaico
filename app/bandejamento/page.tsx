@@ -25,7 +25,7 @@ export default function BandejamentoPage() {
         title="Sistemas de Bandejamento em Fibra de Vidro"
         subtitle="Produto"
         description="Projetados para ambientes onde a corrosão compromete estruturas metálicas, garantindo integridade estrutural permanente."
-        overlayClass="bg-gold-drop-900/60"
+        overlayClass="bg-azul-900/60"
       />
 
       {/* Block 1: Intro — text left, image right */}
@@ -107,7 +107,7 @@ export default function BandejamentoPage() {
               <ul role="list" className="mt-6 space-y-3">
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
-                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-gold-drop-600" />
+                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
                     <span className="text-base text-gray-700">{item}</span>
                   </li>
                 ))}

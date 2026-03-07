@@ -15,7 +15,7 @@ export default function UrbanismoPage() {
         title="Urbanismo"
         subtitle="Produto"
         description="Estruturas duráveis para espaços urbanos expostos ao tempo, à maresia e ao uso intenso."
-        overlayClass="bg-apple-900/60"
+        overlayClass="bg-azul-900/60"
       />
 
       <section className="px-6 py-16 sm:py-24 lg:py-32">

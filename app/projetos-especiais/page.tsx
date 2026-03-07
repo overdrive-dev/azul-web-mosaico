@@ -15,7 +15,7 @@ export default function ProjetosEspeciaisPage() {
         title="Projetos Especiais"
         subtitle="Produto"
         description="Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade, onde o convencional não atende."
-        overlayClass="bg-gold-900/60"
+        overlayClass="bg-azul-900/60"
       />
 
       <section className="px-6 py-16 sm:py-24 lg:py-32">

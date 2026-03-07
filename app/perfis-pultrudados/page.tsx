@@ -36,7 +36,7 @@ export default function PerfisPultrudadosPage() {
         title="Perfis Pultrudados em Fibra de Vidro"
         subtitle="Produto"
         description="Projetados para substituir estruturas metálicas em ambientes agressivos, com resistência estrutural equivalente ao aço e total imunidade à corrosão."
-        overlayClass="bg-gold-900/60"
+        overlayClass="bg-azul-900/60"
       />
 
       {/* Block 1: Intro — text left, image right */}
@@ -79,7 +79,7 @@ export default function PerfisPultrudadosPage() {
               <ul role="list" className="mt-6 space-y-3">
                 {aplicacoes.map((item) => (
                   <li key={item} className="flex gap-x-3">
-                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-gold-600" />
+                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
                     <span className="text-base text-gray-700">{item}</span>
                   </li>
                 ))}
@@ -100,7 +100,7 @@ export default function PerfisPultrudadosPage() {
               <ul role="list" className="mt-6 space-y-3">
                 {vantagens.map((item) => (
                   <li key={item} className="flex gap-x-3">
-                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-gold-600" />
+                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
                     <span className="text-base text-gray-700">{item}</span>
                   </li>
                 ))}

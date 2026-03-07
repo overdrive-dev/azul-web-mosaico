@@ -33,7 +33,7 @@ export default function EscadaDeMarinheiroPage() {
         title="Escadas de Marinheiro em Fibra de Vidro"
         subtitle="Produto"
         description="Acesso vertical definitivo para ambientes expostos à maresia e agentes químicos, com segurança permanente e custo de manutenção praticamente inexistente."
-        overlayClass="bg-cerise-900/60"
+        overlayClass="bg-azul-900/60"
       />
 
       {/* Block 1: Intro — text left, image right */}
@@ -76,7 +76,7 @@ export default function EscadaDeMarinheiroPage() {
               <ul role="list" className="mt-6 space-y-3">
                 {aplicacoes.map((item) => (
                   <li key={item} className="flex gap-x-3">
-                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-cerise-600" />
+                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
                     <span className="text-base text-gray-700">{item}</span>
                   </li>
                 ))}
@@ -97,7 +97,7 @@ export default function EscadaDeMarinheiroPage() {
               <ul role="list" className="mt-6 space-y-3">
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
-                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-cerise-600" />
+                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
                     <span className="text-base text-gray-700">{item}</span>
                   </li>
                 ))}
