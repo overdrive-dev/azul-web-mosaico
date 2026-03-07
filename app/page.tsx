@@ -9,7 +9,7 @@ export default function Home() {
       <HeroCarousel />
 
       {/* Positioning Text */}
-      <section className="bg-azul-800 px-6 py-16 sm:py-24 lg:py-32">
+      <section className="bg-azul-800 px-6 py-16 sm:py-24 lg:py-32" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Crect x='0' y='0' width='18' height='18' rx='3' fill='%23f2352c' opacity='0.08'/%3E%3Crect x='21' y='0' width='18' height='18' rx='3' fill='%23ffd712' opacity='0.08'/%3E%3Crect x='0' y='21' width='18' height='18' rx='3' fill='%230eaf22' opacity='0.08'/%3E%3Crect x='21' y='21' width='18' height='18' rx='3' fill='%23e6007e' opacity='0.08'/%3E%3Crect x='42' y='10' width='18' height='18' rx='3' fill='%23f28522' opacity='0.08'/%3E%3Crect x='10' y='42' width='18' height='18' rx='3' fill='%23ffd712' opacity='0.08'/%3E%3Crect x='42' y='42' width='18' height='18' rx='3' fill='%23f2352c' opacity='0.08'/%3E%3C/svg%3E")` }}>
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-white">
             Engenharia aplicada à durabilidade
@@ -261,7 +261,7 @@ export default function Home() {
       </section>
 
       {/* Vantagens dos Compósitos */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-20" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='60'%3E%3Crect x='0' y='0' width='14' height='14' rx='2' fill='%23f2352c' opacity='0.06'/%3E%3Crect x='16' y='0' width='14' height='14' rx='2' fill='%23ffd712' opacity='0.06'/%3E%3Crect x='0' y='16' width='14' height='14' rx='2' fill='%230eaf22' opacity='0.06'/%3E%3Crect x='16' y='16' width='14' height='14' rx='2' fill='%23e6007e' opacity='0.06'/%3E%3Crect x='32' y='8' width='14' height='14' rx='2' fill='%23f28522' opacity='0.06'/%3E%3Crect x='8' y='32' width='14' height='14' rx='2' fill='%23f2352c' opacity='0.06'/%3E%3Crect x='32' y='32' width='14' height='14' rx='2' fill='%230eaf22' opacity='0.06'/%3E%3C/svg%3E")` }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl lg:text-4xl lg:leading-tight font-bold mb-16 text-azul-800 uppercase text-center leading-tight">
             Vantagens dos compósitos de alto desempenho
