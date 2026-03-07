@@ -27,11 +27,11 @@ export default function Header() {
   const pathname = usePathname()
 
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-sm">
+    <header className="sticky top-0 z-50 bg-azul-800">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-4 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-            <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={140} height={48} className="h-10 w-auto" style={{ filter: 'brightness(0)' }} />
+            <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={140} height={48} className="h-10 w-auto" />
           </a>
         </div>
 
@@ -42,7 +42,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-semibold ${isActive ? 'text-azul-600' : 'text-gray-900 hover:text-azul-600'}`}
+                className={`text-sm font-semibold ${isActive ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}
               >
                 {item.name}
               </a>
@@ -50,7 +50,7 @@ export default function Header() {
           })}
 
           <Menu as="div" className="relative">
-            <MenuButton className={`flex items-center gap-x-1 text-sm font-semibold ${pathname.startsWith('/produtos') ? 'text-azul-600' : 'text-gray-900 hover:text-azul-600'}`}>
+            <MenuButton className={`flex items-center gap-x-1 text-sm font-semibold ${pathname.startsWith('/produtos') ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}>
               Produtos
               <ChevronDownIcon aria-hidden="true" className="size-4" />
             </MenuButton>
@@ -79,7 +79,7 @@ export default function Header() {
 
           <a
             href="/fale-conosco"
-            className={`text-sm font-semibold ${pathname === '/fale-conosco' ? 'text-azul-600' : 'text-gray-900 hover:text-azul-600'}`}
+            className={`text-sm font-semibold ${pathname === '/fale-conosco' ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}
           >
             Fale Conosco
           </a>
@@ -103,7 +103,7 @@ export default function Header() {
           <button
             type="button"
             onClick={() => setMobileMenuOpen(true)}
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
           >
             <span className="sr-only">Abrir menu</span>
             <Bars3Icon aria-hidden="true" className="size-6" />
@@ -134,7 +134,7 @@ export default function Header() {
             <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:shadow-xl">
               <div className="flex items-center justify-between">
                 <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-                  <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={140} height={48} className="h-10 w-auto" style={{ filter: 'brightness(0)' }} />
+                  <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={140} height={48} className="h-10 w-auto" />
                 </a>
                 <button
                   type="button"

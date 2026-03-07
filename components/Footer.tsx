@@ -10,26 +10,26 @@ const navLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200">
+    <footer className="bg-azul-900">
       <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={120} height={40} className="h-8 w-auto" style={{ filter: 'brightness(0)' }} />
+              <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={120} height={40} className="h-8 w-auto" />
             </div>
-            <p className="text-sm text-gray-600 leading-relaxed">
+            <p className="text-sm text-azul-300 leading-relaxed">
               Soluções estruturais em fibra de vidro para enfrentar ambientes de alta corrosão.
             </p>
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">Navegação</h3>
+            <h3 className="text-sm font-semibold text-white mb-4">Navegação</h3>
             <nav className="space-y-2">
               {navLinks.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block text-sm text-gray-600 hover:text-azul-600"
+                  className="block text-sm text-azul-300 hover:text-white"
                 >
                   {item.name}
                 </a>
@@ -38,18 +38,18 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-4">Contato</h3>
-            <div className="space-y-2 text-sm text-gray-600">
+            <h3 className="text-sm font-semibold text-white mb-4">Contato</h3>
+            <div className="space-y-2 text-sm text-azul-300">
               <p>
-                <a href="tel:+552138281501" className="hover:text-azul-600">+55 21 3828-1501</a>
+                <a href="tel:+552138281501" className="hover:text-white">+55 21 3828-1501</a>
               </p>
               <p>
-                <a href="tel:+552138281564" className="hover:text-azul-600">+55 21 3828-1564</a>
+                <a href="tel:+552138281564" className="hover:text-white">+55 21 3828-1564</a>
               </p>
               <p>
-                <a href="mailto:vendas@azulcompositos.com.br" className="hover:text-azul-600">vendas@azulcompositos.com.br</a>
+                <a href="mailto:vendas@azulcompositos.com.br" className="hover:text-white">vendas@azulcompositos.com.br</a>
               </p>
-              <p className="pt-2 text-xs text-gray-500 leading-relaxed">
+              <p className="pt-2 text-xs text-azul-400 leading-relaxed">
                 Avenida Brasil, nº44. 879 Parte<br />
                 Campo Grande — Rio de Janeiro — RJ<br />
                 CEP: 23078-001
@@ -60,7 +60,7 @@ export default function Footer() {
                 href="https://wa.me/5521973583171"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-400 hover:text-[#25D366] transition-colors"
+                className="text-azul-400 hover:text-[#25D366] transition-colors"
                 title="WhatsApp"
               >
                 <span className="sr-only">WhatsApp</span>
@@ -70,7 +70,7 @@ export default function Footer() {
               </a>
               <a
                 href="#"
-                className="text-gray-400 hover:text-pink-600 transition-colors"
+                className="text-azul-400 hover:text-pink-400 transition-colors"
                 title="Instagram"
               >
                 <span className="sr-only">Instagram</span>
@@ -82,8 +82,8 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-gray-200 pt-8">
-          <p className="text-center text-xs text-gray-400">
+        <div className="mt-8 border-t border-azul-800 pt-8">
+          <p className="text-center text-xs text-azul-400">
             &copy; {new Date().getFullYear()} Azul Compósitos. Todos os direitos reservados.
           </p>
         </div>
