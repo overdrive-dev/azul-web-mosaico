@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const navLinks = [
   { name: "Início", href: "/" },
@@ -14,8 +15,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-8 w-8 rounded bg-azul-600 flex items-center justify-center text-white font-bold text-sm">A</div>
-              <span className="text-base font-semibold text-gray-900">Azul Compósitos</span>
+              <Image src="/azul-composito-logo-short.svg" alt="Azul Compósitos" width={120} height={40} className="h-8 w-auto" style={{ filter: 'brightness(0)' }} />
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
               Soluções estruturais em fibra de vidro para enfrentar ambientes de alta corrosão.
