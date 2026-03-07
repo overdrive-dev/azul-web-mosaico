@@ -40,7 +40,7 @@ export default function GuardaCorposPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/guarda-corpos-offshore-mar.jpeg" alt="Guarda-corpos em plataforma offshore" fill className="object-cover" />
+              <Image src="/images/guarda-corpos-ponte.jpg" alt="Guarda-corpos em ponte" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function GuardaCorposPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/guarda-corpos-industria-quimica.jpg" alt="Guarda-corpos em indústria química" fill className="object-cover" />
+              <Image src="/images/guardacorpo-telhado.png" alt="Guarda-corpos em telhado industrial" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
