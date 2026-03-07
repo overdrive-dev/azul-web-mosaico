@@ -2,44 +2,6 @@ import HeroCarousel from "@/components/HeroCarousel";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
-const products = [
-  {
-    name: "Perfis Pultrudados",
-    description: "Estruturas imunes à corrosão para edificações costeiras, offshore e ambientes industriais agressivos.",
-    href: "/produtos/perfis-pultrudados",
-  },
-  {
-    name: "Grades de Piso",
-    description: "Segurança estrutural permanente para plataformas, portos e indústrias químicas.",
-    href: "/produtos/grades-de-piso",
-  },
-  {
-    name: "Bandejamento e Eletrocalhas",
-    description: "Organização de cabos com resistência total à corrosão marinha e química.",
-    href: "/produtos/bandejamento",
-  },
-  {
-    name: "Guarda-Corpos",
-    description: "Proteção estrutural durável para áreas industriais e litorâneas.",
-    href: "/produtos/guarda-corpos",
-  },
-  {
-    name: "Escada de Marinheiro",
-    description: "Acesso vertical definitivo para ambientes expostos à maresia e agentes químicos.",
-    href: "/produtos/escada-de-marinheiro",
-  },
-  {
-    name: "Urbanismo",
-    description: "Estruturas duráveis para espaços urbanos expostos ao tempo, à maresia e ao uso intenso.",
-    href: "/produtos/urbanismo",
-  },
-  {
-    name: "Projetos Especiais",
-    description: "Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade.",
-    href: "/produtos/projetos-especiais",
-  },
-];
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -57,24 +19,198 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Product CTA Grid */}
-      <section className="px-6 pb-16 sm:pb-24 lg:pb-32">
-        <div className="mx-auto max-w-7xl">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {products.map((product) => (
-              <a
-                key={product.name}
-                href={product.href}
-                className="group relative flex flex-col justify-end overflow-hidden rounded-lg aspect-[4/3]"
-              >
-                <div className="absolute inset-0 bg-gray-700 group-hover:bg-gray-600 transition-colors" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
-                <div className="relative z-10 p-6">
-                  <h3 className="text-lg font-semibold text-white">{product.name}</h3>
-                  <p className="mt-1 text-sm text-white/80">{product.description}</p>
-                </div>
-              </a>
-            ))}
+      {/* Perfis Pultrudados — imagem à direita */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Perfis Pultrudados
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Estruturas imunes à corrosão para edificações costeiras, offshore e ambientes industriais agressivos.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/perfis-pultrudados"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="order-first lg:order-none lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+          </div>
+        </div>
+      </section>
+
+      {/* Grades de Piso — imagem à esquerda */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:order-1 lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300" />
+          </div>
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Grades de Piso
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Segurança estrutural permanente para plataformas, portos e indústrias químicas.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/grades-de-piso"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Bandejamento e Eletrocalhas — imagem à direita */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Bandejamento e Eletrocalhas
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Organização de cabos com resistência total à corrosão marinha e química.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/bandejamento"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="order-first lg:order-none lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+          </div>
+        </div>
+      </section>
+
+      {/* Guarda-Corpos — imagem à esquerda */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:order-1 lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300" />
+          </div>
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Guarda-Corpos
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Proteção estrutural durável para áreas industriais e litorâneas.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/guarda-corpos"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Escada de Marinheiro — imagem à direita */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Escada de Marinheiro
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Acesso vertical definitivo para ambientes expostos à maresia e agentes químicos.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/escada-de-marinheiro"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="order-first lg:order-none lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+          </div>
+        </div>
+      </section>
+
+      {/* Urbanismo — imagem à esquerda */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:order-1 lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300" />
+          </div>
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Urbanismo
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Estruturas duráveis para espaços urbanos expostos ao tempo, à maresia e ao uso intenso.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/urbanismo"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projetos Especiais — imagem à direita */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Projetos Especiais
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade, onde o convencional não atende.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/produtos/projetos-especiais"
+                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="order-first lg:order-none lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
           </div>
         </div>
       </section>
