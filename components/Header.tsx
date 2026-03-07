@@ -12,9 +12,9 @@ const products = [
   { name: 'Bandejamento e Eletrocalhas', href: '/bandejamento' },
   { name: 'Guarda-Corpos', href: '/guarda-corpos' },
   { name: 'Escada de Marinheiro', href: '/escada-de-marinheiro' },
-  { name: 'Urbanismo', href: '/urbanismo' },
   { name: 'Projetos Especiais', href: '/projetos-especiais' },
   { name: 'Soluções Offshore', href: '/solucoes-offshore' },
+  { name: 'Urbanismo', href: '/urbanismo' },
 ]
 
 const navigation = [
