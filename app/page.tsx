@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       {/* Perfis Pultrudados — imagem à direita */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -51,7 +51,7 @@ export default function Home() {
       </section>
 
       {/* Grades de Piso — imagem à esquerda */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
@@ -81,7 +81,7 @@ export default function Home() {
       </section>
 
       {/* Bandejamento e Eletrocalhas — imagem à direita */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -111,7 +111,7 @@ export default function Home() {
       </section>
 
       {/* Guarda-Corpos — imagem à esquerda */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
@@ -141,7 +141,7 @@ export default function Home() {
       </section>
 
       {/* Escada de Marinheiro — imagem à direita */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -171,7 +171,7 @@ export default function Home() {
       </section>
 
       {/* Urbanismo — imagem à esquerda */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
@@ -201,7 +201,7 @@ export default function Home() {
       </section>
 
       {/* Projetos Especiais — imagem à direita */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -231,7 +231,7 @@ export default function Home() {
       </section>
 
       {/* Soluções Offshore — imagem à esquerda */}
-      <section>
+      <section className="mb-16 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
