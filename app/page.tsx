@@ -224,7 +224,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-01.jpeg" alt="Soluções Offshore" fill className="object-cover" />
+              <Image src="/images/foto-06.JPG" alt="Soluções Offshore" fill className="object-cover" />
             </div>
           </div>
         </div>
