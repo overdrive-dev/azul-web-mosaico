@@ -59,11 +59,15 @@ export default function HeroCarousel() {
               key={index}
               className="relative flex-[0_0_100%] min-w-0"
             >
-              <div className="relative aspect-[4/3] lg:aspect-[16/7] flex items-center justify-start px-6 lg:px-16">
+              <div className="relative aspect-[4/3] lg:aspect-[16/7] flex items-center justify-center px-6 lg:px-16">
                 <Image src={slide.image} alt={slide.headline} fill className="pointer-events-none absolute inset-0 object-cover" />
-                <div className="pointer-events-none absolute inset-0 bg-black/40" />
-                <div className="relative z-10 max-w-xl w-full">
-                  <h2 className="text-2xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white">
+                <div className="pointer-events-none absolute inset-0 bg-black/50" />
+                <div className={`relative z-10 max-w-3xl w-full text-center transition-all duration-700 ease-out ${
+                  index === selectedIndex
+                    ? 'opacity-100 translate-y-0'
+                    : 'opacity-0 translate-y-6'
+                }`}>
+                  <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white">
                     {slide.headline}
                   </h2>
                   <p className="mt-4 text-base sm:text-lg text-white/80">
