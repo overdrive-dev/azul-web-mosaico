@@ -3,18 +3,8 @@
 import { useState } from 'react'
 import { usePathname } from 'next/navigation'
 import Image from 'next/image'
-import { Dialog, DialogPanel, Transition, TransitionChild, Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
-
-const products = [
-  { name: 'Perfis Pultrudados', href: '/produtos/perfis-pultrudados' },
-  { name: 'Grades de Piso', href: '/produtos/grades-de-piso' },
-  { name: 'Bandejamento e Eletrocalhas', href: '/produtos/bandejamento' },
-  { name: 'Guarda-Corpos', href: '/produtos/guarda-corpos' },
-  { name: 'Escada de Marinheiro', href: '/produtos/escada-de-marinheiro' },
-  { name: 'Urbanismo', href: '/produtos/urbanismo' },
-  { name: 'Projetos Especiais', href: '/produtos/projetos-especiais' },
-]
+import { Dialog, DialogPanel, Transition, TransitionChild } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Início', href: '/' },
@@ -36,7 +26,7 @@ export default function Header() {
         </div>
 
         <div className="hidden lg:flex lg:items-center lg:gap-x-8">
-          {navigation.slice(0, 2).map((item) => {
+          {navigation.map((item) => {
             const isActive = pathname === item.href
             return (
               <a
@@ -48,41 +38,6 @@ export default function Header() {
               </a>
             )
           })}
-
-          <Menu as="div" className="relative">
-            <MenuButton className={`flex items-center gap-x-1 text-sm font-semibold ${pathname.startsWith('/produtos') ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}>
-              Produtos
-              <ChevronDownIcon aria-hidden="true" className="size-4" />
-            </MenuButton>
-            <MenuItems className="absolute left-1/2 z-10 mt-3 w-64 -translate-x-1/2 rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-              <MenuItem>
-                <a
-                  href="/produtos"
-                  className="block rounded-md px-3 py-2 text-sm font-semibold text-gray-900 hover:bg-gray-50"
-                >
-                  Ver todos os produtos
-                </a>
-              </MenuItem>
-              <div className="my-1 h-px bg-gray-100" />
-              {products.map((item) => (
-                <MenuItem key={item.name}>
-                  <a
-                    href={item.href}
-                    className="block rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                  >
-                    {item.name}
-                  </a>
-                </MenuItem>
-              ))}
-            </MenuItems>
-          </Menu>
-
-          <a
-            href="/fale-conosco"
-            className={`text-sm font-semibold ${pathname === '/fale-conosco' ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}
-          >
-            Fale Conosco
-          </a>
         </div>
 
         <div className="flex flex-1 items-center justify-end gap-x-4">
@@ -148,46 +103,16 @@ export default function Header() {
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-200">
                   <div className="space-y-1 py-6">
-                    <a
-                      href="/"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
-                    >
-                      Início
-                    </a>
-                    <a
-                      href="/quem-somos"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
-                    >
-                      Quem Somos
-                    </a>
-                  </div>
-
-                  <div className="py-6">
-                    <h3 className="text-xs font-semibold text-gray-400 uppercase tracking-wide mb-3">Produtos</h3>
-                    <div className="space-y-1">
-                      {products.map((item) => (
-                        <a
-                          key={item.name}
-                          href={item.href}
-                          onClick={() => setMobileMenuOpen(false)}
-                          className="-mx-3 block rounded-lg px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                        >
-                          {item.name}
-                        </a>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div className="py-6">
-                    <a
-                      href="/fale-conosco"
-                      onClick={() => setMobileMenuOpen(false)}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
-                    >
-                      Fale Conosco
-                    </a>
+                    {navigation.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        onClick={() => setMobileMenuOpen(false)}
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold text-gray-900 hover:bg-gray-50"
+                      >
+                        {item.name}
+                      </a>
+                    ))}
                   </div>
 
                   <div className="py-6">

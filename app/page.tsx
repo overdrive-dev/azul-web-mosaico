@@ -33,7 +33,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/perfis-pultrudados"
+                  href="/perfis-pultrudados"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
@@ -64,7 +64,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/grades-de-piso"
+                  href="/grades-de-piso"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
@@ -89,7 +89,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/bandejamento"
+                  href="/bandejamento"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
@@ -120,7 +120,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/guarda-corpos"
+                  href="/guarda-corpos"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
@@ -145,7 +145,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/escada-de-marinheiro"
+                  href="/escada-de-marinheiro"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
@@ -176,7 +176,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/urbanismo"
+                  href="/urbanismo"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
@@ -201,7 +201,7 @@ export default function Home() {
               </p>
               <div className="mt-8">
                 <a
-                  href="/produtos/projetos-especiais"
+                  href="/projetos-especiais"
                   className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
