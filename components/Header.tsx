@@ -14,6 +14,7 @@ const products = [
   { name: 'Escada de Marinheiro', href: '/escada-de-marinheiro' },
   { name: 'Urbanismo', href: '/urbanismo' },
   { name: 'Projetos Especiais', href: '/projetos-especiais' },
+  { name: 'Soluções Offshore', href: '/solucoes-offshore' },
 ]
 
 const navigation = [

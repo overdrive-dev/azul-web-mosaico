@@ -230,6 +230,36 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Soluções Offshore — imagem à esquerda */}
+      <section>
+        <div className="flex flex-col lg:flex-row">
+          <div className="lg:order-1 lg:w-1/2">
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
+              <Image src="/images/foto-01.jpeg" alt="Soluções Offshore" fill className="object-cover" />
+            </div>
+          </div>
+          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="mx-auto max-w-xl">
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+                Soluções Offshore
+              </h2>
+              <p className="mt-4 text-base leading-relaxed text-gray-600">
+                Soluções estruturais completas em fibra de vidro para plataformas offshore, FPSOs e ambientes marítimos sujeitos à corrosão extrema.
+              </p>
+              <div className="mt-8">
+                <a
+                  href="/solucoes-offshore"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
+                >
+                  Saiba mais
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Vantagens dos Compósitos */}
       <section className="bg-azul-900 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
