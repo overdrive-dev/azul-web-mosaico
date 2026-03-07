@@ -1,6 +1,7 @@
 'use client'
 
 import { useCallback, useEffect, useState } from 'react'
+import Image from 'next/image'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Fade from 'embla-carousel-fade'
@@ -9,14 +10,17 @@ const slides = [
   {
     headline: 'Soluções em Fibra de Vidro Imunes à Corrosão',
     subtext: 'Estruturas para plataformas offshore e ambientes industriais agressivos',
+    image: '/images/foto-01.jpeg',
   },
   {
     headline: 'Longa Vida Útil e Baixa Manutenção',
     subtext: 'Durabilidade comparável ao aço com custo de manutenção mínimo',
+    image: '/images/foto-03.jpeg',
   },
   {
     headline: 'Alta Resistência Química',
     subtext: 'Resistência a ácidos, sais e solventes',
+    image: '/images/foto-15.jpeg',
   },
 ]
 
@@ -56,7 +60,7 @@ export default function HeroCarousel() {
               className="relative flex-[0_0_100%] min-w-0"
             >
               <div className="relative aspect-[4/3] lg:aspect-[16/7] flex items-center justify-start px-6 lg:px-16">
-                <div className="pointer-events-none absolute inset-0 bg-gray-800" />
+                <Image src={slide.image} alt={slide.headline} fill className="pointer-events-none absolute inset-0 object-cover" />
                 <div className="pointer-events-none absolute inset-0 bg-black/40" />
                 <div className="relative z-10 max-w-xl w-full">
                   <h2 className="text-2xl sm:text-4xl lg:text-5xl font-semibold tracking-tight text-white">

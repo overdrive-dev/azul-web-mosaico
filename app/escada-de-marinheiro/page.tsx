@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import HeroBanner from "@/components/HeroBanner";
 import Contact from "@/components/Contact";
@@ -52,7 +53,9 @@ export default function EscadaDeMarinheiroPage() {
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-13.JPG" alt="Escada de marinheiro em reservatório" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -61,7 +64,9 @@ export default function EscadaDeMarinheiroPage() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-14.jpg" alt="Escada de marinheiro em indústria" fill className="object-cover" />
+            </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-xl">
@@ -100,7 +105,9 @@ export default function EscadaDeMarinheiroPage() {
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-12.jpg" alt="Escada com guarda-corpo em estrutura" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>

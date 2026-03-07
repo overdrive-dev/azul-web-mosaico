@@ -1,3 +1,4 @@
+import Image from "next/image";
 import HeroCarousel from "@/components/HeroCarousel";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -42,7 +43,9 @@ export default function Home() {
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-07.jpeg" alt="Perfis Pultrudados" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -51,7 +54,9 @@ export default function Home() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
+              <Image src="/images/foto-08.jpeg" alt="Grades de Piso" fill className="object-cover" />
+            </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -98,7 +103,9 @@ export default function Home() {
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-11.jpeg" alt="Bandejamento e Eletrocalhas" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -107,7 +114,9 @@ export default function Home() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
+              <Image src="/images/foto-04.jpg" alt="Guarda-Corpos" fill className="object-cover" />
+            </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -154,7 +163,9 @@ export default function Home() {
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-13.JPG" alt="Escada de Marinheiro" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
@@ -163,7 +174,9 @@ export default function Home() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
+              <Image src="/images/foto-16.jpg" alt="Urbanismo" fill className="object-cover" />
+            </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
@@ -210,7 +223,9 @@ export default function Home() {
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
-            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200" />
+            <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
+              <Image src="/images/foto-17.jpg" alt="Projetos Especiais" fill className="object-cover" />
+            </div>
           </div>
         </div>
       </section>
