@@ -21,9 +21,9 @@ export default function Home() {
       </section>
 
       {/* Perfis Pultrudados — imagem à direita */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -51,14 +51,14 @@ export default function Home() {
       </section>
 
       {/* Grades de Piso — imagem à esquerda */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
               <Image src="/images/foto-08.jpeg" alt="Grades de Piso" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -81,9 +81,9 @@ export default function Home() {
       </section>
 
       {/* Bandejamento e Eletrocalhas — imagem à direita */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -111,14 +111,14 @@ export default function Home() {
       </section>
 
       {/* Guarda-Corpos — imagem à esquerda */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
               <Image src="/images/foto-04.jpg" alt="Guarda-Corpos" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -141,9 +141,9 @@ export default function Home() {
       </section>
 
       {/* Escada de Marinheiro — imagem à direita */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -171,14 +171,14 @@ export default function Home() {
       </section>
 
       {/* Urbanismo — imagem à esquerda */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
               <Image src="/images/foto-16.jpg" alt="Urbanismo" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -201,9 +201,9 @@ export default function Home() {
       </section>
 
       {/* Projetos Especiais — imagem à direita */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -231,14 +231,14 @@ export default function Home() {
       </section>
 
       {/* Soluções Offshore — imagem à esquerda */}
-      <section className="mb-16 lg:mb-0">
+      <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
               <Image src="/images/foto-01.jpeg" alt="Soluções Offshore" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
