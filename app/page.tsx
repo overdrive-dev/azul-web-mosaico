@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-07.jpeg" alt="Perfis Pultrudados" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-torre-estrutural.jpeg" alt="Perfis Pultrudados" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/foto-08.jpeg" alt="Grades de Piso" fill className="object-cover" />
+              <Image src="/images/grades-piso-tanques-industriais.jpeg" alt="Grades de Piso" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
@@ -104,7 +104,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-11.jpeg" alt="Bandejamento e Eletrocalhas" fill className="object-cover" />
+              <Image src="/images/bandejamento-leitos-cabos.jpeg" alt="Bandejamento e Eletrocalhas" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/foto-04.jpg" alt="Guarda-Corpos" fill className="object-cover" />
+              <Image src="/images/guarda-corpos-industria-quimica.jpg" alt="Guarda-Corpos" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
@@ -164,7 +164,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-13.JPG" alt="Escada de Marinheiro" fill className="object-cover" />
+              <Image src="/images/escada-marinheiro-reservatorio.JPG" alt="Escada de Marinheiro" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -175,7 +175,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/foto-17.jpg" alt="Projetos Especiais" fill className="object-cover" />
+              <Image src="/images/projetos-especiais-componente.jpg" alt="Projetos Especiais" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
@@ -224,7 +224,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-06.JPG" alt="Soluções Offshore" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-plataforma-offshore.JPG" alt="Soluções Offshore" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -235,7 +235,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/foto-16.jpg" alt="Urbanismo" fill className="object-cover" />
+              <Image src="/images/urbanismo-cerca-fibra-vidro.jpg" alt="Urbanismo" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">

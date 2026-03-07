@@ -10,17 +10,17 @@ const slides = [
   {
     headline: 'Soluções em Fibra de Vidro Imunes à Corrosão',
     subtext: 'Estruturas para plataformas offshore e ambientes industriais agressivos',
-    image: '/images/foto-01.jpeg',
+    image: '/images/plataforma-offshore-overview.jpeg',
   },
   {
     headline: 'Longa Vida Útil e Baixa Manutenção',
     subtext: 'Durabilidade comparável ao aço com custo de manutenção mínimo',
-    image: '/images/foto-03.jpeg',
+    image: '/images/grades-guarda-corpos-porto.jpeg',
   },
   {
     headline: 'Alta Resistência Química',
     subtext: 'Resistência a ácidos, sais e solventes',
-    image: '/images/foto-15.jpeg',
+    image: '/images/grades-offshore-mar.jpeg',
   },
 ]
 

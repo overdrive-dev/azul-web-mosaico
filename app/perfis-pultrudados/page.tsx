@@ -50,7 +50,7 @@ export default function PerfisPultrudadosPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-05.jpg" alt="Perfis pultrudados em ambiente industrial" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-torre-industrial.jpg" alt="Perfis pultrudados em ambiente industrial" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -61,7 +61,7 @@ export default function PerfisPultrudadosPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-06.JPG" alt="Plataforma offshore com perfis pultrudados" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-plataforma-offshore.JPG" alt="Plataforma offshore com perfis pultrudados" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
@@ -102,7 +102,7 @@ export default function PerfisPultrudadosPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-07.jpeg" alt="Estrutura torre com perfis pultrudados" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-torre-estrutural.jpeg" alt="Estrutura torre com perfis pultrudados" fill className="object-cover" />
             </div>
           </div>
         </div>
