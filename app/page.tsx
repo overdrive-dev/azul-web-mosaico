@@ -164,7 +164,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/escada-marinheiro-reservatorio.JPG" alt="Escada de Marinheiro" fill className="object-cover" />
+              <Image src="/images/escada-guarda-corpo-saneamento.jpg" alt="Escada de Marinheiro" fill className="object-cover" />
             </div>
           </div>
         </div>
