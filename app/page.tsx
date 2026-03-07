@@ -24,7 +24,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Perfis Pultrudados
               </h2>
@@ -34,7 +34,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/perfis-pultrudados"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Grades de Piso
               </h2>
@@ -65,7 +65,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/grades-de-piso"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>
@@ -80,7 +80,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Bandejamento e Eletrocalhas
               </h2>
@@ -90,7 +90,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/bandejamento"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>
@@ -111,7 +111,7 @@ export default function Home() {
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Guarda-Corpos
               </h2>
@@ -121,7 +121,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/guarda-corpos"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>
@@ -136,7 +136,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Escada de Marinheiro
               </h2>
@@ -146,7 +146,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/escada-de-marinheiro"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>
@@ -167,7 +167,7 @@ export default function Home() {
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Urbanismo
               </h2>
@@ -177,7 +177,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/urbanismo"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>
@@ -192,7 +192,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-cinnabar-600">Produto</p>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Projetos Especiais
               </h2>
@@ -202,7 +202,7 @@ export default function Home() {
               <div className="mt-8">
                 <a
                   href="/produtos/projetos-especiais"
-                  className="inline-flex items-center rounded-md bg-cinnabar-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 transition-colors"
+                  className="inline-flex items-center rounded-md bg-azul-600 px-4 py-2 text-sm font-semibold text-white shadow-xs hover:bg-azul-500 transition-colors"
                 >
                   Saiba mais
                 </a>

@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="h-8 w-8 rounded bg-cinnabar-600 flex items-center justify-center text-white font-bold text-sm">A</div>
+              <div className="h-8 w-8 rounded bg-azul-600 flex items-center justify-center text-white font-bold text-sm">A</div>
               <span className="text-base font-semibold text-gray-900">Azul Compósitos</span>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
@@ -29,7 +29,7 @@ export default function Footer() {
                 <a
                   key={item.name}
                   href={item.href}
-                  className="block text-sm text-gray-600 hover:text-cinnabar-600"
+                  className="block text-sm text-gray-600 hover:text-azul-600"
                 >
                   {item.name}
                 </a>
@@ -41,13 +41,13 @@ export default function Footer() {
             <h3 className="text-sm font-semibold text-gray-900 mb-4">Contato</h3>
             <div className="space-y-2 text-sm text-gray-600">
               <p>
-                <a href="tel:+552138281501" className="hover:text-cinnabar-600">+55 21 3828-1501</a>
+                <a href="tel:+552138281501" className="hover:text-azul-600">+55 21 3828-1501</a>
               </p>
               <p>
-                <a href="tel:+552138281564" className="hover:text-cinnabar-600">+55 21 3828-1564</a>
+                <a href="tel:+552138281564" className="hover:text-azul-600">+55 21 3828-1564</a>
               </p>
               <p>
-                <a href="mailto:vendas@azulcompositos.com.br" className="hover:text-cinnabar-600">vendas@azulcompositos.com.br</a>
+                <a href="mailto:vendas@azulcompositos.com.br" className="hover:text-azul-600">vendas@azulcompositos.com.br</a>
               </p>
               <p className="pt-2 text-xs text-gray-500 leading-relaxed">
                 Avenida Brasil, nº44. 879 Parte<br />

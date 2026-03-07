@@ -30,7 +30,7 @@ export default function Header() {
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-4 lg:px-8">
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-            <div className="h-8 w-8 rounded bg-cinnabar-600 flex items-center justify-center text-white font-bold text-sm">A</div>
+            <div className="h-8 w-8 rounded bg-azul-600 flex items-center justify-center text-white font-bold text-sm">A</div>
             <span className="text-base font-semibold text-gray-900">Azul Compósitos</span>
           </a>
         </div>
@@ -42,7 +42,7 @@ export default function Header() {
               <a
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-semibold ${isActive ? 'text-cinnabar-600' : 'text-gray-900 hover:text-cinnabar-600'}`}
+                className={`text-sm font-semibold ${isActive ? 'text-azul-600' : 'text-gray-900 hover:text-azul-600'}`}
               >
                 {item.name}
               </a>
@@ -50,7 +50,7 @@ export default function Header() {
           })}
 
           <Menu as="div" className="relative">
-            <MenuButton className={`flex items-center gap-x-1 text-sm font-semibold ${pathname.startsWith('/produtos') ? 'text-cinnabar-600' : 'text-gray-900 hover:text-cinnabar-600'}`}>
+            <MenuButton className={`flex items-center gap-x-1 text-sm font-semibold ${pathname.startsWith('/produtos') ? 'text-azul-600' : 'text-gray-900 hover:text-azul-600'}`}>
               Produtos
               <ChevronDownIcon aria-hidden="true" className="size-4" />
             </MenuButton>
@@ -79,7 +79,7 @@ export default function Header() {
 
           <a
             href="/fale-conosco"
-            className={`text-sm font-semibold ${pathname === '/fale-conosco' ? 'text-cinnabar-600' : 'text-gray-900 hover:text-cinnabar-600'}`}
+            className={`text-sm font-semibold ${pathname === '/fale-conosco' ? 'text-azul-600' : 'text-gray-900 hover:text-azul-600'}`}
           >
             Fale Conosco
           </a>
@@ -134,7 +134,7 @@ export default function Header() {
             <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:shadow-xl">
               <div className="flex items-center justify-between">
                 <a href="/" className="-m-1.5 p-1.5 flex items-center gap-2">
-                  <div className="h-8 w-8 rounded bg-cinnabar-600 flex items-center justify-center text-white font-bold text-sm">A</div>
+                  <div className="h-8 w-8 rounded bg-azul-600 flex items-center justify-center text-white font-bold text-sm">A</div>
                   <span className="text-base font-semibold text-gray-900">Azul Compósitos</span>
                 </a>
                 <button

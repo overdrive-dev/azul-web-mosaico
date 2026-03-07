@@ -94,18 +94,18 @@ export default function Contact({
 
       <div className={`mx-auto max-w-xl text-left lg:text-center ${!hideHeader ? "mt-8" : ""}`}>
         <p className="text-sm text-gray-700">
-          <span className="mr-2 font-semibold text-cinnabar-600">Tel:</span>
-          <a href="tel:+552138281501" className="font-semibold text-cinnabar-600 hover:text-cinnabar-500">
+          <span className="mr-2 font-semibold text-azul-600">Tel:</span>
+          <a href="tel:+552138281501" className="font-semibold text-azul-600 hover:text-azul-500">
             +55 21 3828-1501
           </a>
           {" / "}
-          <a href="tel:+552138281564" className="font-semibold text-cinnabar-600 hover:text-cinnabar-500">
+          <a href="tel:+552138281564" className="font-semibold text-azul-600 hover:text-azul-500">
             3828-1564
           </a>
         </p>
         <p className="mt-1 text-sm text-gray-700">
-          <span className="mr-2 font-semibold text-cinnabar-600">Email:</span>
-          <a href="mailto:vendas@azulcompositos.com.br" className="font-semibold text-cinnabar-600 hover:text-cinnabar-500">
+          <span className="mr-2 font-semibold text-azul-600">Email:</span>
+          <a href="mailto:vendas@azulcompositos.com.br" className="font-semibold text-azul-600 hover:text-azul-500">
             vendas@azulcompositos.com.br
           </a>
         </p>
@@ -136,7 +136,7 @@ export default function Contact({
                 name="product"
                 value={formData.product}
                 onChange={handleChange}
-                className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3.5 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3.5 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               >
                 {productOptions.map((opt) => (
                   <option key={opt} value={opt}>{opt}</option>
@@ -162,7 +162,7 @@ export default function Contact({
                 required
                 value={formData.firstName}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               />
             </div>
           </div>
@@ -179,7 +179,7 @@ export default function Contact({
                 autoComplete="family-name"
                 value={formData.lastName}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               />
             </div>
           </div>
@@ -196,7 +196,7 @@ export default function Contact({
                 autoComplete="organization"
                 value={formData.company}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               />
             </div>
           </div>
@@ -214,7 +214,7 @@ export default function Contact({
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               />
             </div>
           </div>
@@ -232,7 +232,7 @@ export default function Contact({
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="(21) 99999-9999"
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               />
             </div>
           </div>
@@ -250,7 +250,7 @@ export default function Contact({
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Descreva seu projeto ou necessidade..."
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-cinnabar-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
               />
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function Contact({
         <div className="mt-8">
           <button
             type="submit"
-            className="block w-full rounded-md bg-cinnabar-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-cinnabar-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cinnabar-600 transition-colors"
+            className="block w-full rounded-md bg-azul-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-azul-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul-600 transition-colors"
           >
             {submitText}
           </button>

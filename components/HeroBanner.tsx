@@ -20,7 +20,7 @@ export default function HeroBanner({
         <div className={`pointer-events-none absolute inset-0 z-0 ${overlayClass}`} />
         <div className="mx-auto max-w-xl text-left relative z-10 w-full">
           {subtitle && (
-            <p className="text-sm font-semibold text-cinnabar-300 uppercase tracking-wide mb-3">
+            <p className="text-sm font-semibold text-azul-300 uppercase tracking-wide mb-3">
               {subtitle}
             </p>
           )}
@@ -33,7 +33,7 @@ export default function HeroBanner({
             </p>
           )}
           {accentText && (
-            <p className="mt-2 text-base font-medium text-cinnabar-300">
+            <p className="mt-2 text-base font-medium text-azul-300">
               {accentText}
             </p>
           )}

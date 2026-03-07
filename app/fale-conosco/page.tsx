@@ -45,7 +45,7 @@ export default function FaleConoscoPage() {
 
             <div className="border border-gray-200 p-6 rounded-lg">
               <div className="flex items-start">
-                <div className="inline-flex rounded-lg p-3 ring-4 ring-white bg-cinnabar-50 text-cinnabar-600 mr-4">
+                <div className="inline-flex rounded-lg p-3 ring-4 ring-white bg-azul-50 text-azul-600 mr-4">
                   <PhoneIcon className="h-6 w-6" />
                 </div>
                 <div>
@@ -61,7 +61,7 @@ export default function FaleConoscoPage() {
               className="border border-gray-200 p-6 rounded-lg hover:bg-gray-50 transition-colors"
             >
               <div className="flex items-start">
-                <div className="inline-flex rounded-lg p-3 ring-4 ring-white bg-cinnabar-50 text-cinnabar-600 mr-4">
+                <div className="inline-flex rounded-lg p-3 ring-4 ring-white bg-azul-50 text-azul-600 mr-4">
                   <EnvelopeIcon className="h-6 w-6" />
                 </div>
                 <div>
@@ -79,7 +79,7 @@ export default function FaleConoscoPage() {
               className="border border-gray-200 p-6 rounded-lg hover:bg-gray-50 transition-colors"
             >
               <div className="flex items-start">
-                <div className="inline-flex rounded-lg p-3 ring-4 ring-white bg-cinnabar-50 text-cinnabar-600 mr-4">
+                <div className="inline-flex rounded-lg p-3 ring-4 ring-white bg-azul-50 text-azul-600 mr-4">
                   <MapPinIcon className="h-6 w-6" />
                 </div>
                 <div>

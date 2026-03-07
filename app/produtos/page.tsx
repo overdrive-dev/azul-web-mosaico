@@ -30,7 +30,7 @@ const products = [
     name: "Guarda-Corpos",
     description: "Sistemas de proteção para aplicações industriais, marítimas e urbanas sujeitas à corrosão constante.",
     href: "/produtos/guarda-corpos",
-    accentClass: "bg-cinnabar-600",
+    accentClass: "bg-azul-600",
   },
   {
     name: "Escada de Marinheiro",
@@ -71,7 +71,7 @@ export default function ProdutosPage() {
                 className="group block rounded-lg border border-gray-200 p-6 hover:shadow-md transition-shadow"
               >
                 <div className={`w-3 h-3 rounded-full ${product.accentClass} mb-4`} />
-                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-cinnabar-600 transition-colors">
+                <h3 className="text-lg font-semibold text-gray-900 group-hover:text-azul-600 transition-colors">
                   {product.name}
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 leading-relaxed">

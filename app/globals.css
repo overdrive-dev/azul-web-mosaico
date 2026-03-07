@@ -6,18 +6,18 @@
 }
 
 @theme {
-  /* Cinnabar (brand red) */
-  --color-cinnabar-50: #fef3f2;
-  --color-cinnabar-100: #ffe2e1;
-  --color-cinnabar-200: #ffcbc9;
-  --color-cinnabar-300: #fea7a3;
-  --color-cinnabar-400: #fb746e;
-  --color-cinnabar-500: #f2352c;
-  --color-cinnabar-600: #e02b22;
-  --color-cinnabar-700: #bd2018;
-  --color-cinnabar-800: #9c1e18;
-  --color-cinnabar-900: #81201b;
-  --color-cinnabar-950: #460c09;
+  /* Azul (brand blue) */
+  --color-azul-50: #eff6ff;
+  --color-azul-100: #dbeafe;
+  --color-azul-200: #bfdbfe;
+  --color-azul-300: #93c5fd;
+  --color-azul-400: #60a5fa;
+  --color-azul-500: #3b82f6;
+  --color-azul-600: #1d4ed8;
+  --color-azul-700: #1e40af;
+  --color-azul-800: #1e3a8a;
+  --color-azul-900: #1e3050;
+  --color-azul-950: #0f1729;
 
   /* Gold */
   --color-gold-50: #fefde8;

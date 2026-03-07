@@ -25,7 +25,7 @@ export default function GuardaCorposPage() {
         title="Guarda-Corpos em Fibra de Vidro"
         subtitle="Produto"
         description="Sistemas de proteção desenvolvidos para aplicações industriais, marítimas e urbanas sujeitas à corrosão constante."
-        overlayClass="bg-cinnabar-900/60"
+        overlayClass="bg-azul-900/60"
       />
 
       {/* Block 1: Intro — text left, image right */}
@@ -64,7 +64,7 @@ export default function GuardaCorposPage() {
               <ul role="list" className="mt-6 space-y-3">
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
-                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-cinnabar-600" />
+                    <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
                     <span className="text-base text-gray-700">{item}</span>
                   </li>
                 ))}
