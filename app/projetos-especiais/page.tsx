@@ -29,7 +29,7 @@ export default function ProjetosEspeciaisPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/foto-17.jpg" alt="Projetos especiais em fibra de vidro" fill className="object-cover" />
+              <Image src="/images/projetos-especiais-componente.jpg" alt="Projetos especiais em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>
