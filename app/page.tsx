@@ -267,48 +267,48 @@ export default function Home() {
             Vantagens dos compósitos de alto desempenho
           </h2>
           <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-1">
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4 rounded-br-[100%]">
-              <p className="relative text-center text-xs sm:text-sm uppercase text-azul-950 font-bold left-[-6px] top-[-6px]">Resistência à corrosão química</p>
+            <div className="relative aspect-square bg-[#f2352c] flex items-center justify-center p-4 rounded-br-[100%]">
+              <p className="relative text-center text-xs sm:text-sm uppercase text-white font-bold left-[-6px] top-[-6px]">Resistência à corrosão química</p>
             </div>
-            <div className="relative aspect-square bg-white flex items-center justify-center p-4 rounded-tr-[100%]">
-              <p className="relative text-center text-xs sm:text-sm uppercase text-azul-900 font-bold left-[-6px] top-[6px]">Resistência à corrosão por intempérie</p>
+            <div className="relative aspect-square bg-[#ffd712] flex items-center justify-center p-4 rounded-tr-[100%]">
+              <p className="relative text-center text-xs sm:text-sm uppercase text-gray-900 font-bold left-[-6px] top-[6px]">Resistência à corrosão por intempérie</p>
             </div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-950 font-bold">Fácil montagem e instalação</p>
+            <div className="relative aspect-square bg-[#0eaf22] flex items-center justify-center p-4">
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Fácil montagem e instalação</p>
             </div>
             <div className="aspect-square bg-azul-950 flex items-center justify-center p-4 rounded-bl-[100%]"></div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4 rounded-full">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-950 font-bold">Até 70% mais leve que o aço</p>
+            <div className="relative aspect-square bg-[#e6007e] flex items-center justify-center p-4 rounded-full">
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Até 70% mais leve que o aço</p>
             </div>
-            <div className="relative aspect-square bg-white flex items-center justify-center p-4 rounded-full">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-900 font-bold">Transparência eletromagnética</p>
+            <div className="relative aspect-square bg-[#f28522] flex items-center justify-center p-4 rounded-full">
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Transparência eletromagnética</p>
             </div>
-            <div className="relative aspect-square bg-white flex items-center justify-center p-4 rounded-full">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-900 font-bold">Resistência ao fogo em níveis variados</p>
+            <div className="relative aspect-square bg-[#ffd712] flex items-center justify-center p-4 rounded-full">
+              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold">Resistência ao fogo em níveis variados</p>
             </div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4 rounded-full"></div>
-            <div className="relative aspect-square bg-white flex items-center justify-center p-4 rounded-tr-[100%]">
-              <p className="relative text-center text-xs sm:text-sm uppercase text-azul-900 font-bold left-[-6px] top-[6px]">Zero custo de manutenção estrutural</p>
+            <div className="relative aspect-square bg-[#f2352c] flex items-center justify-center p-4 rounded-full"></div>
+            <div className="relative aspect-square bg-[#0eaf22] flex items-center justify-center p-4 rounded-tr-[100%]">
+              <p className="relative text-center text-xs sm:text-sm uppercase text-white font-bold left-[-6px] top-[6px]">Zero custo de manutenção estrutural</p>
             </div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4 rounded-tl-[100%]">
-              <p className="relative text-center text-xs sm:text-sm uppercase text-azul-950 font-bold left-[6px] top-[6px]">Sem valor de revenda</p>
+            <div className="relative aspect-square bg-[#e6007e] flex items-center justify-center p-4 rounded-tl-[100%]">
+              <p className="relative text-center text-xs sm:text-sm uppercase text-white font-bold left-[6px] top-[6px]">Sem valor de revenda</p>
             </div>
             <div className="aspect-square bg-azul-950 flex items-center justify-center p-4 rounded-full"></div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4 rounded-full">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-950 font-bold">Vida útil indeterminada</p>
+            <div className="relative aspect-square bg-[#f28522] flex items-center justify-center p-4 rounded-full">
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Vida útil indeterminada</p>
             </div>
             <div className="aspect-square bg-azul-950 flex items-center justify-center p-4"></div>
-            <div className="relative aspect-square bg-white flex items-center justify-center p-4 rounded-bl-[100%]">
-              <p className="relative text-center text-xs sm:text-sm uppercase text-azul-900 font-bold left-[6px] top-[-6px]">Material eletricamente isolante</p>
+            <div className="relative aspect-square bg-[#ffd712] flex items-center justify-center p-4 rounded-bl-[100%]">
+              <p className="relative text-center text-xs sm:text-sm uppercase text-gray-900 font-bold left-[6px] top-[-6px]">Material eletricamente isolante</p>
             </div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-950 font-bold">Material termicamente isolante</p>
+            <div className="relative aspect-square bg-[#f2352c] flex items-center justify-center p-4">
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Material termicamente isolante</p>
             </div>
-            <div className="relative aspect-square bg-white flex items-center justify-center p-4">
-              <p className="text-center text-xs sm:text-sm uppercase text-azul-900 font-bold">Excelente adesão a colas e resinas</p>
+            <div className="relative aspect-square bg-[#0eaf22] flex items-center justify-center p-4">
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Excelente adesão a colas e resinas</p>
             </div>
-            <div className="relative aspect-square bg-azul-400 flex items-center justify-center p-4 rounded-br-[100%]">
-              <p className="relative text-center text-xs sm:text-sm uppercase text-azul-950 font-bold left-[-6px] top-[-6px]">Soluções customizadas</p>
+            <div className="relative aspect-square bg-[#e6007e] flex items-center justify-center p-4 rounded-br-[100%]">
+              <p className="relative text-center text-xs sm:text-sm uppercase text-white font-bold left-[-6px] top-[-6px]">Soluções customizadas</p>
             </div>
             <div className="aspect-square bg-transparent"></div>
           </div>
