@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import HeroBanner from "@/components/HeroBanner";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -21,21 +20,15 @@ const diferenciais = [
 export default function BandejamentoPage() {
   return (
     <main className="min-h-screen bg-white">
-      <HeroBanner
-        title="Sistemas de Bandejamento em Fibra de Vidro"
-        subtitle="Produto"
-        description="Projetados para ambientes onde a corrosão compromete estruturas metálicas, garantindo integridade estrutural permanente."
-        overlayClass="bg-azul-900/60"
-      />
-
       {/* Block 1: Intro — text left, image right */}
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-xl">
-              <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
-                Integridade estrutural permanente
-              </h2>
+              <p className="text-sm font-semibold text-azul-600">Produto</p>
+              <h1 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
+                Sistemas de Bandejamento em Fibra de Vidro
+              </h1>
               <p className="mt-4 text-base leading-relaxed text-gray-600">
                 Projetados para ambientes onde a corrosão compromete estruturas metálicas, os sistemas de leitos e eletrocalhas em fibra de vidro garantem integridade estrutural permanente em plataformas offshore, refinarias, portos e indústrias químicas.
               </p>
