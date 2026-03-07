@@ -10,7 +10,7 @@ const slides = [
   {
     headline: 'Soluções em Fibra de Vidro Imunes à Corrosão',
     subtext: 'Estruturas para plataformas offshore e ambientes industriais agressivos',
-    image: '/images/plataforma-offshore-overview.jpeg',
+    image: '/images/offshore-capa-nova.jpg.jpeg',
   },
   {
     headline: 'Longa Vida Útil e Baixa Manutenção',
