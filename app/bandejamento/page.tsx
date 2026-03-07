@@ -36,7 +36,7 @@ export default function BandejamentoPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/bandejamento-leitos-cabos.jpeg" alt="Sistema de bandejamento em fibra de vidro" fill className="object-cover" />
+              <Image src="/images/leitos-01.png" alt="Sistema de bandejamento em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ export default function BandejamentoPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/plataforma-offshore-overview.jpeg" alt="Leitos de cabos em plataforma offshore" fill className="object-cover" />
+              <Image src="/images/leitos-02.png" alt="Leitos de cabos" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
@@ -78,7 +78,7 @@ export default function BandejamentoPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/perfis-pultrudados-plataforma-offshore.JPG" alt="Eletrocalhas em ambiente offshore" fill className="object-cover" />
+              <Image src="/images/eletrocalhas.png" alt="Eletrocalhas em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default function BandejamentoPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/grades-offshore-mar.jpeg" alt="Bandejamento offshore" fill className="object-cover" />
+              <Image src="/images/leitos-03.png" alt="Bandejamento e leitos" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
