@@ -15,9 +15,10 @@ export default function QuemSomosPage() {
         title="Engenharia aplicada à durabilidade"
         subtitle="Quem Somos"
         description="Mais de quatro décadas de experiência em soluções estruturais em fibra de vidro."
+        backgroundImage="/images/institucional.jpg"
       />
 
-      <section className="px-6 py-16 sm:py-24 lg:py-32">
+      <section className="px-6 py-16 sm:py-24 lg:py-32 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-pattern-cinza.jpg')" }}>
         <div className="mx-auto max-w-4xl space-y-8">
           <p className="text-base sm:text-lg leading-relaxed text-gray-700">
             A Azul Compósitos é especializada na fabricação de soluções estruturais em fibra de vidro por meio do processo de pultrusão. Sua equipe técnica reúne mais de quatro décadas de experiência e participou ativamente da consolidação da fibra de vidro estrutural no Brasil.

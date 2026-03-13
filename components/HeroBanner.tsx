@@ -4,6 +4,7 @@ type HeroBannerProps = {
   description?: string;
   accentText?: string;
   overlayClass?: string;
+  backgroundImage?: string;
 };
 
 export default function HeroBanner({
@@ -12,11 +13,15 @@ export default function HeroBanner({
   description,
   accentText,
   overlayClass = "bg-black/50",
+  backgroundImage,
 }: HeroBannerProps) {
   return (
     <section>
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:py-0 lg:aspect-[16/7] flex items-center">
-        <div className="pointer-events-none absolute inset-0 -z-10 bg-gray-300" />
+        <div
+          className="pointer-events-none absolute inset-0 -z-10 bg-gray-300 bg-cover bg-center"
+          style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : undefined}
+        />
         <div className={`pointer-events-none absolute inset-0 z-0 ${overlayClass}`} />
         <div className="mx-auto max-w-xl text-left relative z-10 w-full">
           {subtitle && (

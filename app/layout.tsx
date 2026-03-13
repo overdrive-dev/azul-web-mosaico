@@ -16,6 +16,15 @@ export const metadata: Metadata = {
   },
   description:
     "Soluções estruturais em fibra de vidro imunes à corrosão para plataformas offshore, indústrias químicas e edificações costeiras. Perfis pultrudados, grades, guarda-corpos e mais.",
+  icons: {
+    icon: [
+      { url: "/favicon/favicon.ico", sizes: "any" },
+      { url: "/favicon/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon/favicon-96x96.png", sizes: "96x96", type: "image/png" },
+    ],
+    apple: "/favicon/apple-touch-icon.png",
+  },
+  manifest: "/favicon/site.webmanifest",
   openGraph: {
     title: "Azul Compósitos — Soluções em Fibra de Vidro",
     description:

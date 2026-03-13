@@ -80,32 +80,35 @@ export default function Contact({
   };
 
   return (
-    <section className="isolate bg-gray-50 px-6 py-24 sm:py-32 lg:px-8">
+    <section
+      className="isolate px-6 py-24 sm:py-32 lg:px-8 bg-azul-800 bg-cover bg-center"
+      style={{ backgroundImage: "url(/assets/bg-pattern-small.jpg)" }}
+    >
       {!hideHeader && (
         <div className="mx-auto max-w-2xl text-left lg:text-center">
-          <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
+          <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-white">
             {title}
           </h2>
           {description && (
-            <p className="mt-2 text-sm sm:text-base text-gray-600">{description}</p>
+            <p className="mt-2 text-sm sm:text-base text-white/80">{description}</p>
           )}
         </div>
       )}
 
       <div className={`mx-auto max-w-xl text-left lg:text-center ${!hideHeader ? "mt-8" : ""}`}>
-        <p className="text-sm text-gray-700">
-          <span className="mr-2 font-semibold text-azul-600">Tel:</span>
-          <a href="tel:+552138281501" className="font-semibold text-azul-600 hover:text-azul-500">
+        <p className="text-sm sm:text-base text-white">
+          <span className="mr-2 font-semibold">Tel:</span>
+          <a href="tel:+552138281501" className="font-semibold hover:text-azul-300 transition-colors">
             +55 21 3828-1501
           </a>
           {" / "}
-          <a href="tel:+552138281564" className="font-semibold text-azul-600 hover:text-azul-500">
+          <a href="tel:+552138281564" className="font-semibold hover:text-azul-300 transition-colors">
             3828-1564
           </a>
         </p>
-        <p className="mt-1 text-sm text-gray-700">
-          <span className="mr-2 font-semibold text-azul-600">Email:</span>
-          <a href="mailto:vendas@azulcompositos.com.br" className="font-semibold text-azul-600 hover:text-azul-500">
+        <p className="mt-1 text-sm sm:text-base text-white">
+          <span className="mr-2 font-semibold">Email:</span>
+          <a href="mailto:vendas@azulcompositos.com.br" className="font-semibold hover:text-azul-300 transition-colors">
             vendas@azulcompositos.com.br
           </a>
         </p>
@@ -127,7 +130,7 @@ export default function Contact({
       <form onSubmit={handleSubmit} className="mx-auto mt-12 max-w-xl">
         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div className="sm:col-span-2">
-            <label htmlFor="product" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="product" className="block text-sm font-semibold text-white">
               Produto de interesse
             </label>
             <div className="mt-2.5 grid grid-cols-1">
@@ -136,7 +139,7 @@ export default function Contact({
                 name="product"
                 value={formData.product}
                 onChange={handleChange}
-                className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3.5 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-white py-2 pr-8 pl-3.5 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               >
                 {productOptions.map((opt) => (
                   <option key={opt} value={opt}>{opt}</option>
@@ -150,7 +153,7 @@ export default function Contact({
           </div>
 
           <div>
-            <label htmlFor="firstName" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="firstName" className="block text-sm font-semibold text-white">
               Nome *
             </label>
             <div className="mt-2.5">
@@ -162,13 +165,13 @@ export default function Contact({
                 required
                 value={formData.firstName}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               />
             </div>
           </div>
 
           <div>
-            <label htmlFor="lastName" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="lastName" className="block text-sm font-semibold text-white">
               Sobrenome
             </label>
             <div className="mt-2.5">
@@ -179,13 +182,13 @@ export default function Contact({
                 autoComplete="family-name"
                 value={formData.lastName}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="company" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="company" className="block text-sm font-semibold text-white">
               Empresa
             </label>
             <div className="mt-2.5">
@@ -196,13 +199,13 @@ export default function Contact({
                 autoComplete="organization"
                 value={formData.company}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="email" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="email" className="block text-sm font-semibold text-white">
               E-mail *
             </label>
             <div className="mt-2.5">
@@ -214,13 +217,13 @@ export default function Contact({
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="phone" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="phone" className="block text-sm font-semibold text-white">
               Telefone
             </label>
             <div className="mt-2.5">
@@ -232,13 +235,13 @@ export default function Contact({
                 value={formData.phone}
                 onChange={handleChange}
                 placeholder="(21) 99999-9999"
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               />
             </div>
           </div>
 
           <div className="sm:col-span-2">
-            <label htmlFor="message" className="block text-sm font-semibold text-gray-900">
+            <label htmlFor="message" className="block text-sm font-semibold text-white">
               Mensagem *
             </label>
             <div className="mt-2.5">
@@ -250,7 +253,7 @@ export default function Contact({
                 value={formData.message}
                 onChange={handleChange}
                 placeholder="Descreva seu projeto ou necessidade..."
-                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-600"
+                className="block w-full rounded-md bg-white px-3.5 py-2 text-sm text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-azul-400"
               />
             </div>
           </div>
@@ -259,7 +262,7 @@ export default function Contact({
         <div className="mt-8">
           <button
             type="submit"
-            className="block w-full rounded-md bg-azul-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-azul-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-azul-600 transition-colors"
+            className="block w-full rounded-md bg-cerise-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-xs hover:bg-cerise-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cerise-700 transition-colors"
           >
             {submitText}
           </button>
