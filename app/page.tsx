@@ -23,8 +23,9 @@ export default function Home() {
       {/* Perfis Pultrudados — imagem à direita */}
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-perfis-pultrudados.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-perfis-pultrudados.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Perfis Pultrudados
@@ -58,8 +59,9 @@ export default function Home() {
               <Image src="/images/grades-piso-tanques-industriais.jpg" alt="Grades de Piso" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-grades-de-piso.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-grades-de-piso.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Grades de Piso
@@ -83,8 +85,9 @@ export default function Home() {
       {/* Bandejamento e Eletrocalhas — imagem à direita */}
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-bandejamento.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-bandejamento.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Bandejamento e Eletrocalhas
@@ -118,8 +121,9 @@ export default function Home() {
               <Image src="/images/guarda-corpos-ponte.jpg" alt="Guarda-Corpos" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-guarda-corpos.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-guarda-corpos.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Guarda-Corpos
@@ -143,8 +147,9 @@ export default function Home() {
       {/* Escada de Marinheiro — imagem à direita */}
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-escada-marinheiro.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-escada-marinheiro.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Escada de Marinheiro
@@ -178,8 +183,9 @@ export default function Home() {
               <Image src="/images/projetos-especiais-praca.jpg" alt="Projetos Especiais" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-projetos-especiais.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-projetos-especiais.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Projetos Especiais
@@ -203,8 +209,9 @@ export default function Home() {
       {/* Soluções Offshore — imagem à direita */}
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-solucoes-offshore.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-solucoes-offshore.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Soluções Offshore
@@ -238,8 +245,9 @@ export default function Home() {
               <Image src="/images/urbanismo-capa.jpg" alt="Urbanismo" fill className="object-cover" />
             </div>
           </div>
-          <div className="flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32" style={{ backgroundImage: 'url(/assets/bg-card-urbanismo.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className="mx-auto max-w-xl">
+          <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
+            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-urbanismo.png)' }} />
+            <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
                 Urbanismo
@@ -283,7 +291,7 @@ export default function Home() {
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Até 70% mais leve que o aço</p>
             </div>
             <div className="aspect-square bg-[#ffd712] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-amarelo.png')" }}>
-              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold">Transparência eletromagnética</p>
+              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold break-all">Transparência eletromagnética</p>
             </div>
 
             {/* Row 2 */}
