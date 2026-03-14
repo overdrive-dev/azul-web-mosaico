@@ -24,7 +24,7 @@ export default function Home() {
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-perfis-pultrudados.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-perfis-pultrudados.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -60,7 +60,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-grades-de-piso.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-grades-de-piso.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -86,7 +86,7 @@ export default function Home() {
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-bandejamento.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-bandejamento.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-guarda-corpos.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-guarda-corpos.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -148,7 +148,7 @@ export default function Home() {
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-escada-marinheiro.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-escada-marinheiro.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -184,7 +184,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-projetos-especiais.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-projetos-especiais.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -210,7 +210,7 @@ export default function Home() {
       <section className="mb-10 lg:mb-0">
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-solucoes-offshore.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-solucoes-offshore.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
@@ -246,7 +246,7 @@ export default function Home() {
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
-            <div className="absolute inset-0 hidden lg:block bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-urbanismo.png)' }} />
+            <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-urbanismo.png)' }} />
             <div className="relative z-10 mx-auto max-w-xl">
               <p className="text-sm font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
