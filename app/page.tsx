@@ -291,7 +291,7 @@ export default function Home() {
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Até 70% mais leve que o aço</p>
             </div>
             <div className="aspect-square bg-[#ffd712] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-amarelo.png')" }}>
-              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold break-all">Transparência eletromagnética</p>
+              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold" style={{ hyphens: 'auto' }} lang="pt-BR">Transparência eletromagnética</p>
             </div>
 
             {/* Row 2 */}
