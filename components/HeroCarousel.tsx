@@ -13,7 +13,7 @@ const slides: { headline: ReactNode; subtext: string; image: string }[] = [
     image: '/images/hero-1.jpg',
   },
   {
-    headline: (<>Resistência à corrosão<br/><span className="font-extrabold">Longa Vida útil</span><br/>e Baixa Manutenção</>),
+    headline: (<><span className="font-extrabold">Longa Vida útil</span><br/>e Baixa Manutenção</>),
     subtext: 'Durabilidade comparável ao aço com custo de manutenção mínimo',
     image: '/images/hero-2.jpg',
   },
