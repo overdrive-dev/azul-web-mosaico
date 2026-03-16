@@ -29,7 +29,7 @@ export default function SolucoesOffshorePage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/offshore-capa-nova-2.jpg" alt="Plataforma offshore com soluções em fibra de vidro" fill className="object-cover" />
+              <Image src="/images/solucoes-offshore-1.jpg" alt="Plataforma offshore com soluções em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>

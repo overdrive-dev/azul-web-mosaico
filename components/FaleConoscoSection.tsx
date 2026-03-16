@@ -355,12 +355,12 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
                 </div>
                 <div className="flex-1">
                   <h3 className="text-base font-semibold text-white mb-2">Horário de Funcionamento</h3>
-                  <div className="space-y-1">
-                    <div className="flex justify-between items-center gap-4">
+                  <div className="space-y-2">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-0.5 sm:gap-4">
                       <span className="text-sm text-white/80">Setor administrativo</span>
                       <span className="text-sm text-white font-medium whitespace-nowrap">Seg–Sex 07:30–17:15</span>
                     </div>
-                    <div className="flex justify-between items-center gap-4">
+                    <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-0.5 sm:gap-4">
                       <span className="text-sm text-white/80">Produção</span>
                       <span className="text-sm text-white font-medium whitespace-nowrap">Seg–Sáb 24 horas</span>
                     </div>

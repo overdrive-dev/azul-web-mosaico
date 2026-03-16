@@ -1,26 +1,26 @@
 'use client'
 
-import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState, type ReactNode } from 'react'
 import Image from 'next/image'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Fade from 'embla-carousel-fade'
 
-const slides = [
+const slides: { headline: ReactNode; subtext: string; image: string }[] = [
   {
     headline: 'Soluções em Fibra de Vidro Imunes à Corrosão',
     subtext: 'Estruturas para plataformas offshore e ambientes industriais agressivos',
-    image: '/images/offshore-capa-nova.jpg.jpeg',
+    image: '/images/hero-1.jpg',
   },
   {
-    headline: 'Longa Vida Útil e Baixa Manutenção',
+    headline: (<>Resistência à corrosão<br/><span className="font-extrabold">Longa Vida útil</span><br/>e Baixa Manutenção</>),
     subtext: 'Durabilidade comparável ao aço com custo de manutenção mínimo',
-    image: '/images/grades-guarda-corpos-porto.jpeg',
+    image: '/images/hero-2.jpg',
   },
   {
-    headline: 'Alta Resistência Química',
-    subtext: 'Resistência a ácidos, sais e solventes',
-    image: '/images/grades-offshore-mar.jpeg',
+    headline: 'Alta Resistência química a ácidos, sais e solventes',
+    subtext: '',
+    image: '/images/hero-3.jpg',
   },
 ]
 
@@ -60,7 +60,7 @@ export default function HeroCarousel() {
               className="relative flex-[0_0_100%] min-w-0"
             >
               <div className="relative aspect-[4/3] lg:aspect-[16/7] flex items-center justify-center px-6 lg:px-16">
-                <Image src={slide.image} alt={slide.headline} fill className="pointer-events-none absolute inset-0 object-cover" />
+                <Image src={slide.image} alt={slide.subtext || 'Banner'} fill className="pointer-events-none absolute inset-0 object-cover" />
                 <div className="pointer-events-none absolute inset-0 bg-black/50" />
                 <div className={`relative z-10 max-w-3xl w-full text-center transition-all duration-700 ease-out ${
                   index === selectedIndex
