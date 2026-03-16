@@ -18,7 +18,7 @@ export default function FaleConoscoPage() {
         backgroundImage="/images/fale-conosco-capa.jpg"
       />
 
-      <FaleConoscoSection />
+      <FaleConoscoSection title="" />
 
       <Footer />
     </main>

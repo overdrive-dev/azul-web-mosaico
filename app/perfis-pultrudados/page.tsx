@@ -61,7 +61,7 @@ export default function PerfisPultrudadosPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/perfis-pultrudados-2.jpg" alt="Plataforma offshore com perfis pultrudados" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-2.jpeg" alt="Plataforma offshore com perfis pultrudados" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">

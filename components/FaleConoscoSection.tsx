@@ -81,9 +81,11 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
       style={{ backgroundImage: "url(/assets/bg-pattern-small.jpg)" }}
     >
       {/* Title */}
-      <div className="mx-auto max-w-5xl text-center mb-8">
-        <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-white">{title}</h2>
-      </div>
+      {title && (
+        <div className="mx-auto max-w-5xl text-center mb-8">
+          <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-white">{title}</h2>
+        </div>
+      )}
 
       {/* Header: Tel / Email / WhatsApp */}
       <div className="mx-auto max-w-5xl text-center mb-12">
