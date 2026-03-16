@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import HeroBanner from "@/components/HeroBanner";
-import Contact from "@/components/Contact";
+import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -35,7 +35,7 @@ export default function QuemSomosPage() {
         </div>
       </section>
 
-      <Contact />
+      <FaleConoscoSection title="Entre em contato" />
       <Footer />
     </main>
   );
