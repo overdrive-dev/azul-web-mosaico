@@ -85,7 +85,7 @@ export default function GradesDePisoPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/grades-piso-5.jpg" alt="Passarela com grades de piso" fill className="object-cover" />
+              <Image src="/images/grades-piso-5.jpeg" alt="Passarela com grades de piso" fill className="object-cover" />
             </div>
           </div>
         </div>
