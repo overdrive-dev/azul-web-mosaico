@@ -24,7 +24,11 @@ const productOptions = [
   "Projetos Especiais",
 ];
 
-export default function FaleConoscoSection() {
+interface FaleConoscoSectionProps {
+  title?: string;
+}
+
+export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConoscoSectionProps) {
   const [formData, setFormData] = useState<FormData>({
     product: productOptions[0],
     firstName: "",
@@ -76,6 +80,11 @@ export default function FaleConoscoSection() {
       className="isolate px-6 py-16 sm:py-24 lg:py-32 lg:px-8 bg-azul-800 bg-cover bg-center"
       style={{ backgroundImage: "url(/assets/bg-pattern-small.jpg)" }}
     >
+      {/* Title */}
+      <div className="mx-auto max-w-5xl text-center mb-8">
+        <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-white">{title}</h2>
+      </div>
+
       {/* Header: Tel / Email / WhatsApp */}
       <div className="mx-auto max-w-5xl text-center mb-12">
         <p className="text-sm sm:text-base text-white">

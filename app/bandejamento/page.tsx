@@ -24,19 +24,19 @@ export default function BandejamentoPage() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
+            <div className="mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
               <h1 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Sistemas de Bandejamento em Fibra de Vidro
               </h1>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Projetados para ambientes onde a corrosão compromete estruturas metálicas, os sistemas de leitos e eletrocalhas em fibra de vidro garantem integridade estrutural permanente em plataformas offshore, refinarias, portos e indústrias químicas.
               </p>
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/leitos-01.png" alt="Sistema de bandejamento em fibra de vidro" fill className="object-cover" />
+              <Image src="/images/leitos-01.jpg" alt="Sistema de bandejamento em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -51,11 +51,11 @@ export default function BandejamentoPage() {
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
+            <div className="mx-auto max-w-md">
+              <h2 className="text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Leitos
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Disponíveis nas versões leve e pesada, suportando até 75 kg/m e 150 kg/m respectivamente, com ampla linha de curvas e conexões.
               </p>
             </div>
@@ -67,11 +67,11 @@ export default function BandejamentoPage() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
+            <div className="mx-auto max-w-md">
+              <h2 className="text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Eletrocalhas
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Versatilidade dimensional e montagem simplificada, sem necessidade de ferramental complexo.
               </p>
             </div>
@@ -93,15 +93,15 @@ export default function BandejamentoPage() {
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
+            <div className="mx-auto max-w-md">
+              <h2 className="text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Diferenciais
               </h2>
               <ul role="list" className="mt-6 space-y-3">
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base text-gray-700">{item}</span>
+                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>

@@ -14,12 +14,12 @@ export default function ProjetosEspeciaisPage() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
+            <div className="mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
               <h1 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Projetos Especiais
               </h1>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade, onde o convencional não atende.
               </p>
               <p className="mt-6 text-sm text-gray-500 italic">

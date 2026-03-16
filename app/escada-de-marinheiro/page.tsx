@@ -32,22 +32,22 @@ export default function EscadaDeMarinheiroPage() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
+            <div className="mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
               <h1 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Escadas de Marinheiro em Fibra de Vidro
               </h1>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Desenvolvidas para acesso vertical em estruturas expostas à maresia e agentes químicos, as escadas de marinheiro em fibra de vidro substituem definitivamente as metálicas em plataformas offshore, indústrias químicas e edificações costeiras.
               </p>
-              <p className="mt-3 text-base leading-relaxed text-gray-600">
+              <p className="mt-3 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Com resistência estrutural comparável ao aço e total imunidade à corrosão, oferecem segurança permanente e custo de manutenção praticamente inexistente ao longo do tempo.
               </p>
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/escada-marinheiro-capa.png" alt="Escada de marinheiro" fill className="object-cover" />
+              <Image src="/images/escada-marinheiro-capa.jpg" alt="Escada de marinheiro" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -58,19 +58,19 @@ export default function EscadaDeMarinheiroPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/escada-marinheiro-capa.png" alt="Escada de marinheiro em indústria" fill className="object-cover" />
+              <Image src="/images/escada-marinheiro-capa.jpg" alt="Escada de marinheiro em indústria" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
+            <div className="mx-auto max-w-md">
+              <h2 className="text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Aplicações
               </h2>
               <ul role="list" className="mt-6 space-y-3">
                 {aplicacoes.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base text-gray-700">{item}</span>
+                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -83,15 +83,15 @@ export default function EscadaDeMarinheiroPage() {
       <section>
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
-            <div className="mx-auto max-w-xl">
-              <h2 className="text-xl sm:text-2xl font-semibold tracking-tight text-gray-900">
+            <div className="mx-auto max-w-md">
+              <h2 className="text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Diferenciais
               </h2>
               <ul role="list" className="mt-6 space-y-3">
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base text-gray-700">{item}</span>
+                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>

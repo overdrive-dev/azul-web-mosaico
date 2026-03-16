@@ -1,6 +1,6 @@
 import Image from "next/image";
 import HeroCarousel from "@/components/HeroCarousel";
-import Contact from "@/components/Contact";
+import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -328,7 +328,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Contact />
+      <FaleConoscoSection title="Entre em contato" />
       <Footer />
     </main>
   );
