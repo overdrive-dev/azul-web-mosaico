@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import Contact from "@/components/Contact";
+import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -19,9 +19,9 @@ const diferenciais = [
 
 export default function BandejamentoPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen">
       {/* Block 1: Intro — text left, image right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-md">
@@ -43,7 +43,7 @@ export default function BandejamentoPage() {
       </section>
 
       {/* Block 2: Leitos — image left, text right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
@@ -64,7 +64,7 @@ export default function BandejamentoPage() {
       </section>
 
       {/* Block 3: Eletrocalhas — text left, image right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-md">
@@ -85,7 +85,7 @@ export default function BandejamentoPage() {
       </section>
 
       {/* Block 4: Diferenciais — image left, text right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
@@ -101,7 +101,7 @@ export default function BandejamentoPage() {
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
+                    <span className="text-sm sm:text-base lg:text-lg text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -113,7 +113,7 @@ export default function BandejamentoPage() {
         </div>
       </section>
 
-      <Contact />
+      <FaleConoscoSection title="Entre em contato" />
       <Footer />
     </main>
   );

@@ -27,6 +27,7 @@ const productSlugs = products.map(p => p.href)
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [productsOpen, setProductsOpen] = useState(false)
   const pathname = usePathname()
   const isProductPage = productSlugs.includes(pathname)
 
@@ -53,22 +54,31 @@ export default function Header() {
             Quem Somos
           </a>
 
-          <div className="group relative">
-            <button className={`flex items-center gap-x-1 text-sm font-semibold ${isProductPage ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}>
+          <div className="group relative"
+            onPointerEnter={(e) => { if (e.pointerType === 'mouse') setProductsOpen(true) }}
+            onPointerLeave={(e) => { if (e.pointerType === 'mouse') setProductsOpen(false) }}
+          >
+            <button
+              onClick={() => setProductsOpen((v) => !v)}
+              className={`flex items-center gap-x-1 text-sm font-semibold px-2 py-1 ${isProductPage ? 'text-azul-300' : 'text-white hover:text-azul-300'}`}
+            >
               Produtos
-              <ChevronDownIcon aria-hidden="true" className="size-4 transition-transform group-hover:rotate-180" />
+              <ChevronDownIcon aria-hidden="true" className={`size-4 transition-transform ${productsOpen ? 'rotate-180' : ''}`} />
             </button>
-            <div className="invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 absolute left-1/2 z-10 mt-2 w-64 -translate-x-1/2 rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-              {products.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="block rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
-                >
-                  {item.name}
-                </a>
-              ))}
-            </div>
+            {productsOpen && (
+              <div className="absolute left-1/2 z-10 mt-2 w-64 -translate-x-1/2 rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+                {products.map((item) => (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    onClick={() => setProductsOpen(false)}
+                    className="block rounded-md px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                  >
+                    {item.name}
+                  </a>
+                ))}
+              </div>
+            )}
           </div>
 
           <a

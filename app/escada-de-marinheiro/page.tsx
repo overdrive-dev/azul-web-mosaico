@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import Contact from "@/components/Contact";
+import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -27,9 +27,9 @@ const diferenciais = [
 
 export default function EscadaDeMarinheiroPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen">
       {/* Block 1: Intro — text left, image right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-md">
@@ -54,11 +54,11 @@ export default function EscadaDeMarinheiroPage() {
       </section>
 
       {/* Block 2: Aplicações — image left, text right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/escada-marinheiro-capa.jpg" alt="Escada de marinheiro em indústria" fill className="object-cover" />
+              <Image src="/images/escada-marinheiro-industria.jpg" alt="Escada de marinheiro em indústria" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
@@ -70,7 +70,7 @@ export default function EscadaDeMarinheiroPage() {
                 {aplicacoes.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
+                    <span className="text-sm sm:text-base lg:text-lg text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -80,7 +80,7 @@ export default function EscadaDeMarinheiroPage() {
       </section>
 
       {/* Block 3: Diferenciais — text left, image right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-md">
@@ -91,7 +91,7 @@ export default function EscadaDeMarinheiroPage() {
                 {diferenciais.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
+                    <span className="text-sm sm:text-base lg:text-lg text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -105,7 +105,7 @@ export default function EscadaDeMarinheiroPage() {
         </div>
       </section>
 
-      <Contact />
+      <FaleConoscoSection title="Entre em contato" />
       <Footer />
     </main>
   );

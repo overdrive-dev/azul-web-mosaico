@@ -30,7 +30,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Perfis Pultrudados
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Estruturas imunes à corrosão para edificações costeiras, offshore e ambientes industriais agressivos.
               </p>
               <div className="mt-8">
@@ -66,7 +66,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Grades de Piso
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Segurança estrutural permanente para plataformas, portos e indústrias químicas.
               </p>
               <div className="mt-8">
@@ -92,7 +92,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Bandejamento e Eletrocalhas
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Organização de cabos com resistência total à corrosão marinha e química.
               </p>
               <div className="mt-8">
@@ -128,7 +128,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Guarda-Corpos
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Proteção estrutural durável para áreas industriais e litorâneas.
               </p>
               <div className="mt-8">
@@ -154,7 +154,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Escada de Marinheiro
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Acesso vertical definitivo para ambientes expostos à maresia e agentes químicos.
               </p>
               <div className="mt-8">
@@ -190,7 +190,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Projetos Especiais
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade, onde o convencional não atende.
               </p>
               <div className="mt-8">
@@ -216,7 +216,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Soluções Offshore
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Soluções estruturais completas em fibra de vidro para plataformas offshore, FPSOs e ambientes marítimos sujeitos à corrosão extrema.
               </p>
               <div className="mt-8">
@@ -252,7 +252,7 @@ export default function Home() {
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Urbanismo
               </h2>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Estruturas duráveis para espaços urbanos expostos ao tempo, à maresia e ao uso intenso.
               </p>
               <div className="mt-8">

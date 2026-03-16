@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
-import Contact from "@/components/Contact";
+import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
@@ -30,9 +30,9 @@ const vantagens = [
 
 export default function PerfisPultrudadosPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen">
       {/* Block 1: Intro — text left, image right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-md">
@@ -40,10 +40,10 @@ export default function PerfisPultrudadosPage() {
               <h1 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Perfis Pultrudados em Fibra de Vidro
               </h1>
-              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Projetados para substituir estruturas metálicas em ambientes agressivos, os perfis pultrudados em fibra de vidro oferecem resistência estrutural equivalente ao aço, com a vantagem decisiva de serem totalmente imunes à corrosão.
               </p>
-              <p className="mt-3 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
+              <p className="mt-3 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 São especialmente indicados para edificações costeiras, plataformas offshore, portos e indústrias químicas, onde o aço sofre deterioração constante devido à maresia e à ação química.
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function PerfisPultrudadosPage() {
       </section>
 
       {/* Block 2: Aplicações — image left, text right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
@@ -73,7 +73,7 @@ export default function PerfisPultrudadosPage() {
                 {aplicacoes.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
+                    <span className="text-sm sm:text-base lg:text-lg text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -83,7 +83,7 @@ export default function PerfisPultrudadosPage() {
       </section>
 
       {/* Block 3: Vantagens — text left, image right */}
-      <section>
+      <section className="bg-white">
         <div className="flex flex-col lg:flex-row">
           <div className="flex items-center px-6 py-16 sm:py-24 lg:w-1/2 lg:px-12 lg:py-32">
             <div className="mx-auto max-w-md">
@@ -94,7 +94,7 @@ export default function PerfisPultrudadosPage() {
                 {vantagens.map((item) => (
                   <li key={item} className="flex gap-x-3">
                     <CheckCircleIcon aria-hidden="true" className="mt-0.5 size-5 flex-none text-azul-600" />
-                    <span className="text-base sm:text-lg lg:text-xl text-gray-700">{item}</span>
+                    <span className="text-sm sm:text-base lg:text-lg text-gray-700">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -108,7 +108,7 @@ export default function PerfisPultrudadosPage() {
         </div>
       </section>
 
-      <Contact />
+      <FaleConoscoSection title="Entre em contato" />
       <Footer />
     </main>
   );
