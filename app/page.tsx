@@ -25,12 +25,12 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-perfis-pultrudados.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Perfis Pultrudados
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Estruturas imunes à corrosão para edificações costeiras, offshore e ambientes industriais agressivos.
               </p>
               <div className="mt-8">
@@ -61,12 +61,12 @@ export default function Home() {
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-grades-de-piso.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Grades de Piso
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Segurança estrutural permanente para plataformas, portos e indústrias químicas.
               </p>
               <div className="mt-8">
@@ -87,12 +87,12 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-bandejamento.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Bandejamento e Eletrocalhas
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Organização de cabos com resistência total à corrosão marinha e química.
               </p>
               <div className="mt-8">
@@ -123,12 +123,12 @@ export default function Home() {
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-guarda-corpos.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Guarda-Corpos
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Proteção estrutural durável para áreas industriais e litorâneas.
               </p>
               <div className="mt-8">
@@ -149,12 +149,12 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-escada-marinheiro.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Escada de Marinheiro
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Acesso vertical definitivo para ambientes expostos à maresia e agentes químicos.
               </p>
               <div className="mt-8">
@@ -185,12 +185,12 @@ export default function Home() {
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-projetos-especiais.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Projetos Especiais
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade, onde o convencional não atende.
               </p>
               <div className="mt-8">
@@ -211,12 +211,12 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-solucoes-offshore.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Soluções Offshore
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Soluções estruturais completas em fibra de vidro para plataformas offshore, FPSOs e ambientes marítimos sujeitos à corrosão extrema.
               </p>
               <div className="mt-8">
@@ -247,12 +247,12 @@ export default function Home() {
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
             <div className="absolute inset-0 hidden bg-cover bg-center" style={{ backgroundImage: 'url(/assets/bg-card-urbanismo.png)' }} />
-            <div className="relative z-10 mx-auto max-w-xl">
-              <p className="text-sm font-semibold text-azul-600">Produto</p>
-              <h2 className="mt-2 text-xl sm:text-2xl lg:text-3xl font-semibold tracking-tight text-gray-900">
+            <div className="relative z-10 mx-auto max-w-md">
+              <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
+              <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
                 Urbanismo
               </h2>
-              <p className="mt-4 text-base leading-relaxed text-gray-600">
+              <p className="mt-4 text-base sm:text-lg lg:text-xl leading-relaxed text-gray-600">
                 Estruturas duráveis para espaços urbanos expostos ao tempo, à maresia e ao uso intenso.
               </p>
               <div className="mt-8">
@@ -274,7 +274,7 @@ export default function Home() {
           <h2 className="text-3xl lg:text-4xl lg:leading-tight font-bold mb-16 text-azul-800 uppercase text-center leading-tight">
             Vantagens dos compósitos de alto desempenho
           </h2>
-          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-2">
+          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-2">
             {/* Row 1 */}
             <div className="aspect-square bg-[#0eaf22] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-verde.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Resistência à corrosão química</p>
@@ -282,19 +282,18 @@ export default function Home() {
             <div className="aspect-square bg-[#f28522] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-laranja.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Resistência à corrosão por intempérie</p>
             </div>
-            <div className="aspect-square bg-[#f28522] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-laranja.png')" }}>
+            <div className="aspect-square bg-[#e6007e] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-rosa.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Fácil montagem e instalação</p>
             </div>
-            <div className="aspect-square bg-[#e6007e] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-rosa.png')" }}></div>
-            <div className="aspect-square bg-[#f2352c] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-vermelho.png')" }}></div>
+            <div className="aspect-square bg-[#f28522] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-laranja.png')" }}></div>
             <div className="aspect-square bg-[#b0b0b0] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-cinza.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Até 70% mais leve que o aço</p>
             </div>
             <div className="aspect-square bg-[#ffd712] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-amarelo.png')" }}>
-              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold" style={{ hyphens: 'auto' }} lang="pt-BR">Transparência eletromagnética</p>
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold" style={{ hyphens: 'auto' }} lang="pt-BR">Transparência eletromagnética</p>
             </div>
 
-            {/* Row 2 */}
+            {/* Row 2: azul - verde - laranja - rosa - vermelho - cinza */}
             <div className="aspect-square bg-azul-800 flex items-center justify-center p-4">
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Resistência ao fogo em níveis variados</p>
             </div>
@@ -306,27 +305,25 @@ export default function Home() {
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Sem valor de revenda</p>
             </div>
             <div className="aspect-square bg-[#f2352c] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-vermelho.png')" }}></div>
-            <div className="aspect-square bg-[#b0b0b0] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-cinza.png')" }}></div>
-            <div className="aspect-square bg-[#ffd712] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-amarelo.png')" }}>
-              <p className="text-center text-xs sm:text-sm uppercase text-gray-900 font-bold">Vida útil indeterminada</p>
+            <div className="aspect-square bg-[#b0b0b0] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-cinza.png')" }}>
+              <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Vida útil indeterminada</p>
             </div>
 
-            {/* Row 3 */}
+            {/* Row 3: amarelo - azul - verde - laranja - rosa - vermelho */}
             <div className="aspect-square bg-[#ffd712] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-amarelo.png')" }}></div>
-            <div className="aspect-square bg-[#0eaf22] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-verde.png')" }}>
+            <div className="aspect-square bg-azul-800 flex items-center justify-center p-4">
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Material eletricamente isolante</p>
             </div>
             <div className="aspect-square bg-[#0eaf22] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-verde.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Material termicamente isolante</p>
             </div>
-            <div className="aspect-square bg-[#e6007e] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-rosa.png')" }}>
+            <div className="aspect-square bg-[#f28522] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-laranja.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Excelente adesão a colas e resinas</p>
             </div>
             <div className="aspect-square bg-[#e6007e] flex items-center justify-center p-4 bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-rosa.png')" }}>
               <p className="text-center text-xs sm:text-sm uppercase text-white font-bold">Soluções customizadas</p>
             </div>
-            <div className="aspect-square bg-[#f28522] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-laranja.png')" }}></div>
-            <div className="aspect-square bg-[#b0b0b0] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-cinza.png')" }}></div>
+            <div className="aspect-square bg-[#f2352c] bg-cover bg-center" style={{ backgroundImage: "url('/assets/bg-mosaico-vermelho.png')" }}></div>
           </div>
         </div>
       </section>
