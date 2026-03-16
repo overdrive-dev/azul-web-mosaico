@@ -66,7 +66,8 @@ export default function Header() {
               <ChevronDownIcon aria-hidden="true" className={`size-4 transition-transform ${productsOpen ? 'rotate-180' : ''}`} />
             </button>
             {productsOpen && (
-              <div className="absolute left-1/2 z-10 mt-2 w-64 -translate-x-1/2 rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
+              <div className="absolute left-1/2 z-10 w-64 -translate-x-1/2 pt-2">
+              <div className="rounded-lg bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
                 {products.map((item) => (
                   <a
                     key={item.name}
@@ -77,6 +78,7 @@ export default function Header() {
                     {item.name}
                   </a>
                 ))}
+              </div>
               </div>
             )}
           </div>
