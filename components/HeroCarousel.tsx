@@ -26,7 +26,7 @@ const slides: { headline: ReactNode; subtext: string; image: string }[] = [
 
 export default function HeroCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [
-    Autoplay({ delay: 5000, stopOnInteraction: false }),
+    Autoplay({ delay: 8000, stopOnInteraction: false }),
     Fade(),
   ])
   const [selectedIndex, setSelectedIndex] = useState(0)

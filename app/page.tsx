@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/perfis-pultrudados-1.jpg" alt="Perfis Pultrudados" fill className="object-cover" />
+              <Image src="/images/perfis-pultrudados-2.jpeg" alt="Perfis Pultrudados" fill className="object-cover" />
             </div>
           </div>
         </div>
