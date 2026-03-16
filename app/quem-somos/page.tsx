@@ -18,7 +18,7 @@ export default function QuemSomosPage() {
         backgroundImage="/images/institucional.jpg"
       />
 
-      <section className="px-6 py-12 sm:py-16 lg:py-20 bg-white">
+      <section className="px-6 py-12 sm:py-16 lg:py-20" style={{ backgroundColor: '#fff', backgroundImage: "url('/assets/bg-pattern-cinza.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
         <div className="mx-auto max-w-4xl space-y-8">
           <p className="text-base sm:text-lg lg:text-xl leading-relaxed text-gray-700">
             A Azul Compósitos é especializada na fabricação de soluções estruturais em fibra de vidro por meio do processo de pultrusão. Sua equipe técnica reúne mais de quatro décadas de experiência e participou ativamente da consolidação da fibra de vidro estrutural no Brasil.
