@@ -1,7 +1,7 @@
 'use client'
 
 import { useCallback, useEffect, useState, type ReactNode } from 'react'
-import Image from 'next/image'
+import SkeletonImage from '@/components/SkeletonImage'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Fade from 'embla-carousel-fade'
@@ -60,7 +60,7 @@ export default function HeroCarousel() {
               className="relative flex-[0_0_100%] min-w-0"
             >
               <div className="relative aspect-[4/3] lg:aspect-[16/7] flex items-center justify-center px-6 lg:px-16">
-                <Image src={slide.image} alt={slide.subtext || 'Banner'} fill className="pointer-events-none absolute inset-0 object-cover" />
+                <SkeletonImage src={slide.image} alt={slide.subtext || 'Banner'} fill priority={index === 0} skeletonClass="bg-gray-700" className="pointer-events-none absolute inset-0 object-cover" />
                 <div className="pointer-events-none absolute inset-0 bg-black/50" />
                 <div className={`relative z-10 max-w-3xl w-full text-center transition-all duration-700 ease-out ${
                   index === selectedIndex

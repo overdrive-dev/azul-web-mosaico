@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import SkeletonImage from "@/components/SkeletonImage";
 import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
@@ -29,7 +29,7 @@ export default function SolucoesOffshorePage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/plataforma-offshore-overview.jpeg" alt="Plataforma offshore com soluções em fibra de vidro" fill className="object-cover" />
+              <SkeletonImage src="/images/piso-offshore-2.jpg" alt="Plataforma offshore com soluções em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>

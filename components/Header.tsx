@@ -8,7 +8,7 @@ import { Bars3Icon, XMarkIcon, ChevronDownIcon } from '@heroicons/react/24/outli
 
 const products = [
   { name: 'Perfis Pultrudados', href: '/perfis-pultrudados' },
-  { name: 'Grades de Piso', href: '/grades-de-piso' },
+  { name: 'Grades de Piso e Escadas', href: '/grades-de-piso' },
   { name: 'Bandejamento e Eletrocalhas', href: '/bandejamento' },
   { name: 'Guarda-Corpos', href: '/guarda-corpos' },
   { name: 'Escada de Marinheiro', href: '/escada-de-marinheiro' },

@@ -1,3 +1,7 @@
+'use client'
+
+import SkeletonImage from '@/components/SkeletonImage'
+
 type HeroBannerProps = {
   title: string;
   subtitle?: string;
@@ -18,10 +22,18 @@ export default function HeroBanner({
   return (
     <section>
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:py-0 lg:aspect-[16/7] flex items-center">
-        <div
-          className="pointer-events-none absolute inset-0 -z-10 bg-gray-300 bg-cover bg-center"
-          style={backgroundImage ? { backgroundImage: `url(${backgroundImage})` } : undefined}
-        />
+        {backgroundImage ? (
+          <SkeletonImage
+            src={backgroundImage}
+            alt=""
+            fill
+            priority
+            skeletonClass="bg-gray-700"
+            className="pointer-events-none absolute inset-0 -z-10 object-cover"
+          />
+        ) : (
+          <div className="pointer-events-none absolute inset-0 -z-10 bg-gray-300" />
+        )}
         <div className={`pointer-events-none absolute inset-0 z-0 ${overlayClass}`} />
         <div className="mx-auto max-w-xl text-left relative z-10 w-full">
           {subtitle && (

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import SkeletonImage from "@/components/SkeletonImage";
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Grades de Piso em Fibra de Vidro",
+  title: "Grades de Piso e Escadas em Fibra de Vidro",
   description: "Grades de piso em fibra de vidro para ambientes de alta agressividade química e marinha. Grades montadas e injetadas para plataformas offshore, portos e indústrias.",
 };
 
@@ -28,7 +28,7 @@ export default function GradesDePisoPage() {
             <div className="mx-auto max-w-md">
               <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
               <h1 className="mt-2 text-2xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
-                Grades de Piso em Fibra de Vidro
+                Grades de Piso e Escadas em Fibra de Vidro
               </h1>
               <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Desenvolvidas para ambientes de alta agressividade química e marinha, as grades em fibra de vidro substituem as metálicas com ampla superioridade em durabilidade.
@@ -40,7 +40,7 @@ export default function GradesDePisoPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/grades-piso-5.jpeg" alt="Grades de piso em ambiente industrial" fill className="object-cover" />
+              <SkeletonImage src="/images/grades-piso-5.jpeg" alt="Grades de piso em ambiente industrial" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function GradesDePisoPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/grades-piso-2.jpg" alt="Grades montadas de fibra de vidro" fill className="object-cover" />
+              <SkeletonImage src="/images/grades-piso-2.jpg" alt="Grades montadas de fibra de vidro" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">
@@ -85,7 +85,7 @@ export default function GradesDePisoPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/grades-de-piso-6.png" alt="Passarela com grades de piso" fill className="object-cover" />
+              <SkeletonImage src="/images/grades-de-piso-6.png" alt="Passarela com grades de piso" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -96,7 +96,7 @@ export default function GradesDePisoPage() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/grades-piso-4.jpg" alt="Grades em plataforma industrial" fill className="object-cover" />
+              <SkeletonImage src="/images/grades-piso-4.jpg" alt="Grades em plataforma industrial" fill className="object-cover" />
             </div>
           </div>
           <div className="flex items-center px-6 py-16 sm:py-24 lg:order-2 lg:w-1/2 lg:px-12 lg:py-32">

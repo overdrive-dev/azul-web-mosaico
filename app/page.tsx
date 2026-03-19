@@ -1,4 +1,4 @@
-import Image from "next/image";
+import SkeletonImage from "@/components/SkeletonImage";
 import HeroCarousel from "@/components/HeroCarousel";
 import FaleConoscoSection from "@/components/FaleConoscoSection";
 import Footer from "@/components/Footer";
@@ -45,7 +45,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/perfis-pultrudados-2.jpeg" alt="Perfis Pultrudados" fill className="object-cover" />
+              <SkeletonImage src="/images/perfis-pultrudados-2.jpeg" alt="Perfis Pultrudados" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/grades-piso-home.jpg" alt="Grades de Piso" fill className="object-cover" />
+              <SkeletonImage src="/images/grades-piso-home.jpg" alt="Grades de Piso" fill className="object-cover" />
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="relative z-10 mx-auto max-w-md">
               <p className="text-sm sm:text-base font-semibold text-azul-600">Produto</p>
               <h2 className="mt-2 text-xl sm:text-3xl lg:text-4xl font-semibold tracking-tight text-gray-900">
-                Grades de Piso
+                Grades de Piso e Escadas
               </h2>
               <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Segurança estrutural permanente para plataformas, portos e indústrias químicas.
@@ -107,7 +107,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/bandejamento-1.jpg" alt="Bandejamento e Eletrocalhas" fill className="object-cover" />
+              <SkeletonImage src="/images/bandejamento-1.jpg" alt="Bandejamento e Eletrocalhas" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/guarda-corpos-1.jpeg" alt="Guarda-Corpos" fill className="object-cover" />
+              <SkeletonImage src="/images/guarda-corpos-1.jpeg" alt="Guarda-Corpos" fill className="object-cover" />
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
@@ -169,7 +169,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/escada-marinheiro-1.jpg" alt="Escada de Marinheiro" fill className="object-cover" />
+              <SkeletonImage src="/images/escada-marinheiro-1.jpg" alt="Escada de Marinheiro" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/projetos-especiais-home.jpg" alt="Projetos Especiais" fill className="object-cover" />
+              <SkeletonImage src="/images/projetos-especiais-home.jpg" alt="Projetos Especiais" fill className="object-cover" />
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
@@ -231,7 +231,7 @@ export default function Home() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <Image src="/images/solucoes-offshore-1.jpg" alt="Soluções Offshore" fill className="object-cover" />
+              <SkeletonImage src="/images/perfis-pultrudados-2.jpeg" alt="Soluções Offshore" fill className="object-cover" />
             </div>
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <Image src="/images/guarda-corpos-1.jpeg" alt="Urbanismo" fill className="object-cover" />
+              <SkeletonImage src="/images/guarda-corpos-1.jpeg" alt="Urbanismo" fill className="object-cover" />
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">

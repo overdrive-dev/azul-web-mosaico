@@ -9,19 +9,22 @@ interface FormData {
   firstName: string;
   lastName: string;
   company: string;
+  cpfCnpj: string;
   email: string;
   phone: string;
-  message: string;
+  description: string;
 }
 
 const productOptions = [
   "Perfis Pultrudados",
-  "Grades de Piso",
+  "Grades de Piso e Escadas",
   "Bandejamento e Eletrocalhas",
   "Guarda-Corpos",
   "Escada de Marinheiro",
+  "Soluções Offshore",
   "Urbanismo",
   "Projetos Especiais",
+  "Outros",
 ];
 
 interface FaleConoscoSectionProps {
@@ -34,9 +37,10 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
     firstName: "",
     lastName: "",
     company: "",
+    cpfCnpj: "",
     email: "",
     phone: "",
-    message: "",
+    description: "",
   });
 
   const handleChange = (
@@ -47,7 +51,7 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
   };
 
   const generateMailtoLink = () => {
-    const { product, firstName, lastName, company, email, phone, message } = formData;
+    const { product, firstName, lastName, company, cpfCnpj, email, phone, description } = formData;
     const name = `${firstName} ${lastName}`.trim();
     const emailSubject = product
       ? `Contato via Site — ${product}`
@@ -55,18 +59,19 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
 
     let emailBody = `Olá, meu nome é ${name}.\n\n`;
     if (company) emailBody += `Empresa: ${company}\n`;
+    emailBody += `CPF/CNPJ: ${cpfCnpj}\n`;
     emailBody += `E-mail: ${email}\n`;
-    if (phone) emailBody += `Telefone: ${phone}\n`;
+    emailBody += `Telefone: ${phone}\n`;
     if (product) emailBody += `Produto de interesse: ${product}\n`;
-    emailBody += `\nMensagem:\n${message}\n\nAguardo retorno. Obrigado!`;
+    emailBody += `\nDescrição do projeto/demanda:\n${description}\n\nAguardo retorno. Obrigado!`;
 
     return `mailto:vendas@azulcompositos.com.br?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.firstName || !formData.email || !formData.message) {
-      alert("Por favor, preencha os campos obrigatórios (Nome, E-mail e Mensagem).");
+    if (!formData.firstName || !formData.lastName || !formData.email || !formData.cpfCnpj || !formData.phone || !formData.description) {
+      alert("Por favor, preencha todos os campos obrigatórios.");
       return;
     }
     window.location.href = generateMailtoLink();
@@ -170,7 +175,7 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
 
             <div>
               <label htmlFor="lastName" className="block text-sm font-semibold text-white">
-                Sobrenome
+                Sobrenome *
               </label>
               <div className="mt-2.5">
                 <input
@@ -178,6 +183,7 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
                   name="lastName"
                   type="text"
                   autoComplete="family-name"
+                  required
                   value={formData.lastName}
                   onChange={handleChange}
                   className={inputClasses}
@@ -203,6 +209,24 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
             </div>
 
             <div className="sm:col-span-2">
+              <label htmlFor="cpfCnpj" className="block text-sm font-semibold text-white">
+                CPF / CNPJ *
+              </label>
+              <div className="mt-2.5">
+                <input
+                  id="cpfCnpj"
+                  name="cpfCnpj"
+                  type="text"
+                  required
+                  value={formData.cpfCnpj}
+                  onChange={handleChange}
+                  placeholder="000.000.000-00 ou 00.000.000/0000-00"
+                  className={inputClasses}
+                />
+              </div>
+            </div>
+
+            <div className="sm:col-span-2">
               <label htmlFor="email" className="block text-sm font-semibold text-white">
                 E-mail *
               </label>
@@ -222,7 +246,7 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
 
             <div className="sm:col-span-2">
               <label htmlFor="phone" className="block text-sm font-semibold text-white">
-                Telefone
+                Telefone *
               </label>
               <div className="mt-2.5">
                 <input
@@ -230,6 +254,7 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
                   name="phone"
                   type="tel"
                   autoComplete="tel"
+                  required
                   value={formData.phone}
                   onChange={handleChange}
                   placeholder="(21) 99999-9999"
@@ -239,16 +264,16 @@ export default function FaleConoscoSection({ title = "Fale Conosco" }: FaleConos
             </div>
 
             <div className="sm:col-span-2">
-              <label htmlFor="message" className="block text-sm font-semibold text-white">
-                Mensagem *
+              <label htmlFor="description" className="block text-sm font-semibold text-white">
+                Descrição rápida do projeto / demanda *
               </label>
               <div className="mt-2.5">
                 <textarea
-                  id="message"
-                  name="message"
+                  id="description"
+                  name="description"
                   rows={4}
                   required
-                  value={formData.message}
+                  value={formData.description}
                   onChange={handleChange}
                   placeholder="Descreva seu projeto ou necessidade..."
                   className={inputClasses}
