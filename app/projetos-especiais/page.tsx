@@ -22,9 +22,6 @@ export default function ProjetosEspeciaisPage() {
               <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Inteligência aplicada em fibra de vidro para soluções técnicas de alta complexidade, onde o convencional não atende.
               </p>
-              <p className="mt-6 text-sm text-gray-500 italic">
-                Conteúdo em breve — entre em contato para mais informações.
-              </p>
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
