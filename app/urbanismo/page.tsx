@@ -22,9 +22,6 @@ export default function UrbanismoPage() {
               <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Estruturas duráveis para espaços urbanos expostos ao tempo, à maresia e ao uso intenso.
               </p>
-              <p className="mt-6 text-sm text-gray-500 italic">
-                Conteúdo em breve — entre em contato para mais informações.
-              </p>
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">

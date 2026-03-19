@@ -22,9 +22,6 @@ export default function SolucoesOffshorePage() {
               <p className="mt-4 text-sm sm:text-base lg:text-lg leading-normal text-gray-600">
                 Soluções estruturais completas em fibra de vidro para plataformas offshore, FPSOs e ambientes marítimos sujeitos à corrosão extrema por maresia e agentes químicos.
               </p>
-              <p className="mt-6 text-sm text-gray-500 italic">
-                Conteúdo em breve — entre em contato para mais informações.
-              </p>
             </div>
           </div>
           <div className="order-first lg:order-none lg:w-1/2">

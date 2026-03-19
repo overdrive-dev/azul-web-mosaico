@@ -40,7 +40,7 @@ export default function GuardaCorposPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <SkeletonImage src="/images/solucoes-offshore-1.jpg" alt="Guarda-corpos em ambiente offshore" fill className="object-cover" />
+              <SkeletonImage src="/images/solucoes-offshore-1.jpeg" alt="Guarda-corpos em ambiente offshore" fill className="object-cover" />
             </div>
           </div>
         </div>
