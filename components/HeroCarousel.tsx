@@ -6,7 +6,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
 import Fade from 'embla-carousel-fade'
 
-const slides: { headline: ReactNode; subtext: string; image: string }[] = [
+const slides: { headline: ReactNode; subtext: string; image: string; imageMobile?: string }[] = [
   {
     headline: 'Soluções em Fibra de Vidro Imunes à Corrosão',
     subtext: 'Estruturas para plataformas offshore e ambientes industriais agressivos',
@@ -16,6 +16,7 @@ const slides: { headline: ReactNode; subtext: string; image: string }[] = [
     headline: (<><span className="font-extrabold">Longa Vida útil</span><br/>e Baixa Manutenção</>),
     subtext: 'Durabilidade comparável ao aço com custo de manutenção mínimo',
     image: '/images/hero-2.jpg',
+    imageMobile: '/images/hero-2-mobile.jpeg',
   },
   {
     headline: 'Alta Resistência química a ácidos, sais e solventes',
@@ -60,7 +61,10 @@ export default function HeroCarousel() {
               className="relative flex-[0_0_100%] min-w-0"
             >
               <div className="relative aspect-[4/3] lg:aspect-[16/7] flex items-center justify-center px-6 lg:px-16">
-                <SkeletonImage src={slide.image} alt={slide.subtext || 'Banner'} fill priority={index === 0} skeletonClass="bg-gray-700" className="pointer-events-none absolute inset-0 object-cover" />
+                <SkeletonImage src={slide.image} alt={slide.subtext || 'Banner'} fill priority={index === 0} skeletonClass="bg-gray-700" className={`pointer-events-none absolute inset-0 object-cover ${slide.imageMobile ? 'hidden lg:block' : ''}`} />
+                {slide.imageMobile && (
+                  <SkeletonImage src={slide.imageMobile} alt={slide.subtext || 'Banner'} fill priority={index === 0} skeletonClass="bg-gray-700" className="pointer-events-none absolute inset-0 object-cover lg:hidden" />
+                )}
                 <div className="pointer-events-none absolute inset-0 bg-black/50" />
                 <div className={`relative z-10 max-w-3xl w-full text-center transition-all duration-700 ease-out ${
                   index === selectedIndex

@@ -16,6 +16,7 @@ export default function FaleConoscoPage() {
         subtitle="Contato"
         description="Estamos à disposição para esclarecer dúvidas, apresentar orçamentos e discutir soluções sob medida para o seu projeto."
         backgroundImage="/images/fale-conosco-capa.jpg"
+        backgroundImageMobile="/images/fale-conosco-capa-mobile.jpg"
       />
 
       <FaleConoscoSection title="" />

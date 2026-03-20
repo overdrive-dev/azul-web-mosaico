@@ -16,6 +16,7 @@ export default function QuemSomosPage() {
         subtitle="Quem Somos"
         description="Mais de quatro décadas de experiência em soluções estruturais em fibra de vidro."
         backgroundImage="/images/quem-somos-capa.jpg"
+        backgroundImageMobile="/images/quem-somos-capa-mobile.jpg"
       />
 
       <section className="px-6 py-12 sm:py-16 lg:py-20" style={{ backgroundColor: '#fff', backgroundImage: "url('/assets/bg-pattern-cinza.jpg')", backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>

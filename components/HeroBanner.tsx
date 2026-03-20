@@ -9,6 +9,8 @@ type HeroBannerProps = {
   accentText?: string;
   overlayClass?: string;
   backgroundImage?: string;
+  backgroundImageMobile?: string;
+  objectPositionMobile?: string;
 };
 
 export default function HeroBanner({
@@ -18,19 +20,35 @@ export default function HeroBanner({
   accentText,
   overlayClass = "bg-black/50",
   backgroundImage,
+  backgroundImageMobile,
+  objectPositionMobile,
 }: HeroBannerProps) {
   return (
     <section>
       <div className="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:py-0 lg:aspect-[16/7] flex items-center">
         {backgroundImage ? (
-          <SkeletonImage
-            src={backgroundImage}
-            alt=""
-            fill
-            priority
-            skeletonClass="bg-gray-700"
-            className="pointer-events-none absolute inset-0 -z-10 object-cover"
-          />
+          <>
+            <SkeletonImage
+              src={backgroundImage}
+              alt=""
+              fill
+              priority
+              skeletonClass="bg-gray-700"
+              className={`pointer-events-none absolute inset-0 -z-10 object-cover ${backgroundImageMobile ? 'hidden lg:block' : ''}`}
+              style={objectPositionMobile && !backgroundImageMobile ? { objectPosition: objectPositionMobile } : undefined}
+            />
+            {backgroundImageMobile && (
+              <SkeletonImage
+                src={backgroundImageMobile}
+                alt=""
+                fill
+                priority
+                skeletonClass="bg-gray-700"
+                className="pointer-events-none absolute inset-0 -z-10 object-cover lg:hidden"
+                style={objectPositionMobile ? { objectPosition: objectPositionMobile } : undefined}
+              />
+            )}
+          </>
         ) : (
           <div className="pointer-events-none absolute inset-0 -z-10 bg-gray-300" />
         )}
