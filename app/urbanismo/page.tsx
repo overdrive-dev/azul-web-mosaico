@@ -26,7 +26,7 @@ export default function UrbanismoPage() {
           </div>
           <div className="order-first lg:order-none lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-200">
-              <SkeletonImage src="/images/guarda-corpos-1.jpeg" alt="Urbanismo em fibra de vidro" fill className="object-cover" />
+              <SkeletonImage src="/images/urbanismo-2.jpeg" alt="Urbanismo em fibra de vidro" fill className="object-cover" />
             </div>
           </div>
         </div>

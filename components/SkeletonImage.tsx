@@ -9,9 +9,9 @@ interface SkeletonImageProps extends Omit<ImageProps, 'onLoad'> {
 
 const LOADED_CACHE = new Set<string>()
 
-export default function SkeletonImage({ skeletonClass, className, src, ...props }: SkeletonImageProps) {
+export default function SkeletonImage({ skeletonClass, className, src, priority, ...props }: SkeletonImageProps) {
   const srcKey = typeof src === 'string' ? src : ''
-  const [loaded, setLoaded] = useState(() => LOADED_CACHE.has(srcKey))
+  const [loaded, setLoaded] = useState(() => !!priority || LOADED_CACHE.has(srcKey))
 
   useEffect(() => {
     if (srcKey && LOADED_CACHE.has(srcKey)) {
@@ -35,6 +35,7 @@ export default function SkeletonImage({ skeletonClass, className, src, ...props 
         src={src}
         className={`${className || ''} transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'}`}
         onLoad={handleLoad}
+        priority={priority}
         {...props}
       />
     </>

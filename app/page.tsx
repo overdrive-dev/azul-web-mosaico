@@ -242,7 +242,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:order-1 lg:w-1/2">
             <div className="relative aspect-square lg:aspect-auto lg:h-[50vw] w-full bg-gray-300">
-              <SkeletonImage src="/images/guarda-corpos-1.jpeg" alt="Urbanismo" fill className="object-cover" />
+              <SkeletonImage src="/images/urbanismo-2.jpeg" alt="Urbanismo" fill className="object-cover" />
             </div>
           </div>
           <div className="relative flex items-center px-6 py-8 sm:py-16 lg:order-2 lg:w-1/2 lg:px-12 lg:py-16 xl:py-32">
